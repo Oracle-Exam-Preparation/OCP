@@ -1,16 +1,22 @@
-# Compiled class file
-*.class
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Log file
-*.log
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/target/
+.class
+.mvn/
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+### Package Files
 *.jar
 *.war
 *.nar
@@ -19,5 +25,43 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+### Log Files
+*.log
+*.log.gz
+
+### Dependencies ReactJS
+/.pnp
+.pnp.js
+
+### Testing ReactJS
+/coverage
+
+
+### Misc ReactJS
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+### VS Code ###
+.vscode/
+
+
+### Others ###
+mvnw
+mvnw.cmd
+HELP.md
+/.mvn/

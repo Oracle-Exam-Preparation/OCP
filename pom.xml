@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.trl</groupId>
+    <artifactId>ocp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>OCP Exam Preparation</name>
+    <description></description>
+
+    <inceptionYear>2019</inceptionYear>
+
+    <contributors>
+        <contributor>
+            <name>Tsyupryk Roman</name>
+            <organization>Not Company</organization>
+            <organizationUrl>Not Company URL</organizationUrl>
+            <roles>
+                <role>Project Owner</role>
+                <role>Project Lead</role>
+            </roles>
+            <timezone>+1</timezone>
+            <url>Not URL</url>
+            <email>tsyupryk.roman@gmail.com</email>
+        </contributor>
+    </contributors>
+
+    <licenses>
+        <license>
+            <name>Not name License.</name>
+            <url>Not URL of License.</url>
+            <comments>
+                Not Comments fo License.
+            </comments>
+        </license>
+    </licenses>
+
+    <!--================================================ Properties =================================================-->
+    <properties>
+        <java.version>8</java.version>
+    </properties>
+
+    <!--=============================================== Dependencies ================================================-->
+    <dependencies>
+
+    </dependencies>
+
+    <!--=========================================== Dependency Management ===========================================-->
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <!--=================================================== Build ===================================================-->
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>
