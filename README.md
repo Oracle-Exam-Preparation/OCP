@@ -17,7 +17,7 @@
 - Always check the information you are learning.
 
 ## Enum.
-* [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/inheritance/a/a1/Practice.java)
+* [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/inheritance/a/a1/Example.java)
 * [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumConstructor/a/a1/Example.java)
 ## InstanceOf.
 ## Nested Class.
