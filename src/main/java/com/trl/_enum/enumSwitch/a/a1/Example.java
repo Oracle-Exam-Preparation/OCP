@@ -12,9 +12,10 @@ public class Example {
             case BLACK:
                 System.out.println("BLACK");
                 break;
-            case RED:
-                System.out.println("RED");
-                break;
+            // Carefully with case-sensitive. This sniped of code not compile. Due to "red", but should be "RED".
+//            case red:
+//                System.out.println("RED");
+//                break;
             case YELLOW:
                 System.out.println("YELLOW");
                 break;

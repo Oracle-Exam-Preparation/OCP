@@ -4,8 +4,12 @@ public class Example {
     public static void main(String[] args) {
 
         System.out.println(Color.valueOf("WHITE"));
-//        System.out.println(Color.valueOf("White"));                              // java.lang.IllegalArgumentException
-//        System.out.println(Color.valueOf("white"));                              // java.lang.IllegalArgumentException
+
+        // Carefully with case-sensitive. This exception will be thrown "java.lang.IllegalArgumentException"
+//        System.out.println(Color.valueOf("White"));
+
+        // Carefully with case-sensitive. This exception will be thrown "java.lang.IllegalArgumentException"
+//        System.out.println(Color.valueOf("white"));
     }
 }
 
