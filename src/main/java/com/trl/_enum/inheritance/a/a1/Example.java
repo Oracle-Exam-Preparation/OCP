@@ -1,6 +1,6 @@
 package com.trl._enum.inheritance.a.a1;
 
-public class Practice {
+public class Example {
     public static void main(String[] args) {
     }
 }

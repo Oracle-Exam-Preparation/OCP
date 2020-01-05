@@ -2,6 +2,7 @@ package com.trl._enum.enumConstructor.a.a1;
 
 public class Example {
     public static void main(String[] args) {
+        System.out.println(Color.WHITE);
     }
 }
 
@@ -18,7 +19,15 @@ enum Color {
         this.hexColorCode = hexColorCode;
     }
 
-//    public Color(String hexColorCode) {                   // The code will not compile with a public access constructor.
+    Color(String hexColorCode, String somthingValue) {
+        this.hexColorCode = hexColorCode;
+    }
+
+//    public Color(String hexColorCode, String somthingValue, String somthingValue_2) {                   // The code will not compile with a public access modifer of constructor.
+//        this.hexColorCode = hexColorCode;
+//    }
+
+//    protected Color(String hexColorCode, String somthingValue, String somthingValue_2, String somthingValue_3) {                   // The code will not compile with a protected access of constructor.
 //        this.hexColorCode = hexColorCode;
 //    }
 }
