@@ -1,12 +1,3 @@
-/*
- * This class is created for educational purposes.
- * This class may contain sham information.
- * Always check the information you are learning.
- *
- * @author Tsyupryk Roman
- * @email tsyupryk.roman@gmail.com
- */
-
 package com.trl.virtualMethod.notVirtualMethod.a.a1;
 
 public class Practice {
