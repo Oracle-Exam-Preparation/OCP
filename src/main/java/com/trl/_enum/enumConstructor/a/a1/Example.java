@@ -23,11 +23,13 @@ enum Color {
         this.hexColorCode = hexColorCode;
     }
 
-//    public Color(String hexColorCode, String somthingValue, String somthingValue_2) {                                    // The code will not compile with a public access modifer of constructor.
+    // The code will not compile with a public access modifier of constructor.
+//    public Color(String hexColorCode, String somthingValue, String somthingValue_2) {
 //        this.hexColorCode = hexColorCode;
 //    }
 
-//    protected Color(String hexColorCode, String somthingValue, String somthingValue_2, String somthingValue_3) {         // The code will not compile with a protected access of constructor.
+    // The code will not compile with a protected access modifier of constructor.
+//    protected Color(String hexColorCode, String somthingValue, String somthingValue_2, String somthingValue_3) {
 //        this.hexColorCode = hexColorCode;
 //    }
 }
