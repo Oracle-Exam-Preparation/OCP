@@ -18,7 +18,7 @@
 
 ## Enum.
 Inheritance not allowed for "Enum".
-Example: (file://src/main/java/com/trl/_enum/inheritance/a/a1/Practice.java)
+Example: (https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/inheritance/a/a1/Practice.java)
 ## InstanceOf.
 ## Nested Class.
 ## Methods from Object class.
