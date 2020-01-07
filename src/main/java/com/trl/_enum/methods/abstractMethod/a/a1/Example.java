@@ -1,4 +1,4 @@
-package com.trl._enum.methods.b.b1;
+package com.trl._enum.methods.abstractMethod.a.a1;
 
 public class Example {
     public static void main(String[] args) {

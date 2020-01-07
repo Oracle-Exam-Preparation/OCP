@@ -1,4 +1,4 @@
-package com.trl._enum.methods.b.b4;
+package com.trl._enum.methods.abstractMethod.a.a3;
 
 public class Example {
     public static void main(String[] args) {
@@ -33,5 +33,6 @@ enum Color {
         }
     };
 
+    // Is mandatory definition of this method if you want to use method "doSomething()".
 //    public abstract void doSomething();
 }

@@ -1,4 +1,4 @@
-package com.trl._enum.methods.b.b5;
+package com.trl._enum.methods.abstractMethod.a4;
 
 public class Example {
     public static void main(String[] args) {
@@ -20,6 +20,10 @@ enum Color {
     WHITE {
         public void doSomething() {
             System.out.println("WHITE");
+        }
+
+        public void doSomething_2() {
+            System.out.println("RED_2");
         }
     },
     BLACK {
@@ -44,13 +48,13 @@ enum Color {
         public void doSomething() {
             System.out.println("YELLOW");
         }
+
+        public void doSomething_2() {
+            System.out.println("RED_2");
+        }
     };
 
-    public void doSomething() {
-        System.out.println("default value");
-    }
+    public abstract void doSomething();
 
-    public void doSomething_2() {
-        System.out.println("default value 2");
-    }
+    public abstract void doSomething_2();
 }

@@ -1,4 +1,4 @@
-package com.trl._enum.methods.b.b3;
+package com.trl._enum.methods.a.a2;
 
 public class Example {
     public static void main(String[] args) {
@@ -17,6 +17,7 @@ enum Color {
             System.out.println("BLACK");
         }
     },
+    // Not compilation ERROR !!! This means that each and every enum value, not required to implement this method.
     RED,
     YELLOW;
 
