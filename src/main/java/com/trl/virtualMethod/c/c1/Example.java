@@ -1,6 +1,6 @@
 package com.trl.virtualMethod.c.c1;
 
-public class Practice {
+public class Example {
     public static void main(String[] args) {
         action(new Child());
     }

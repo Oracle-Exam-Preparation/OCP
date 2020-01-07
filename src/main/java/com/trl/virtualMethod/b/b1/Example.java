@@ -1,6 +1,6 @@
 package com.trl.virtualMethod.b.b1;
 
-public class Practice {
+public class Example {
     public static void main(String... args) {
 
         Animal animal_1 = new Dog();

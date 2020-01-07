@@ -1,6 +1,6 @@
-package com.trl.virtualMethod.a.a1;
+package com.trl.virtualMethod.fields.a.a2;
 
-public class Practice {
+public class Example {
     public static void main(String[] args) {
 
         Animal animal_1 = new Dog();
@@ -15,23 +15,21 @@ public class Practice {
 }
 
 abstract class Animal {
-    public abstract void eat();
+    private String name = "Animal";
+
+    public void eat() {
+        System.out.println(name + "eat() !!!");
+    }
 }
 
 class Dog extends Animal {
-    public void eat() {
-        System.out.println("Dog eat() !!!");
-    }
+    private String name = "Dog";
 }
 
 class Cat extends Animal {
-    public void eat() {
-        System.out.println("Cat eat() !!!");
-    }
+    private String name = "Cat";
 }
 
 class Parrot extends Animal {
-    public void eat() {
-        System.out.println("Parrot eat() !!!");
-    }
+    private String name = "Parrot";
 }

@@ -1,6 +1,6 @@
-package com.trl.virtualMethod.fields.c.c1;
+package com.trl.virtualMethod.fields.c.c2;
 
-public class Practice {
+public class Example {
     public static void main(String[] args) {
         action(new Child());
     }
@@ -15,5 +15,4 @@ class Parent {
 }
 
 class Child extends Parent {
-    String name = "Child";
 }

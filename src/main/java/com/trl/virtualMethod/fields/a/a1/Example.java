@@ -1,28 +1,23 @@
-package com.trl.virtualMethod.fields.a.a3;
+package com.trl.virtualMethod.fields.a.a1;
 
-public class Practice {
+public class Example {
     public static void main(String[] args) {
+
         Animal animal_1 = new Dog();
-        animal_1.someKingOfActivity();
+        animal_1.eat();
 
         Animal animal_2 = new Cat();
-        animal_2.someKingOfActivity();
+        animal_2.eat();
 
         Animal animal_3 = new Parrot();
-        animal_3.someKingOfActivity();
+        animal_3.eat();
     }
 }
 
 abstract class Animal {
     private String name = "Animal";
 
-    public void eat() {
-        System.out.println(name + " eat() !!!");
-    }
-
-    public void someKingOfActivity() {
-        eat();
-    }
+    public abstract void eat();
 }
 
 class Dog extends Animal {
