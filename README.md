@@ -17,12 +17,16 @@
 - Always check the information you are learning.
 
 ## Enum.
+#### Constructor.
 * [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumConstructor/a/a1/Example.java)
+
+#### Inheritance.
 * [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/inheritance/a/a1/Example.java)
+
+#### Using "Switch" with "Enum".
 * [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumSwitch/a/a1/Example.java)
 
-#### Methods of Enum.
-
+#### Pre-defined Methods.
 * [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
 * [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/values/a/a1/Example.java)
 
