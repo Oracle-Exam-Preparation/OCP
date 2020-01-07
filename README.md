@@ -22,8 +22,9 @@
 * [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumSwitch/a/a1/Example.java)
 * [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
 * [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/values/a/a1/Example.java)
-* [Definition of an abstract method  in a "Enum". And realisation this abstract method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/b/b1/Example.java)
-* [Each and every "Enum" value, required to implement abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/b/b2/Example.java)
+
+* [Definition of an abstract method  in a "Enum". And realisation this abstract method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a1/Example.java)
+* [Each and every "Enum" value, required to implement abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a2/Example.java)
 * [If "Enum" value, have defined abstract method, "Enum" required to have defined this abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a3/Example.java)
 * [Is allowed definition many abstract method in "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a4/Example.java)
 * [Definition of an method  in a "Enum". And realisation this method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/a/a1/Example.java)
