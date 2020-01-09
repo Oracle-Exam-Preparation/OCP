@@ -1,4 +1,4 @@
-package com.trl.nestedClass.innerClass.a.a1;
+package com.trl.nestedClass.innerClass.inicialization.a.a1;
 
 public class Example {
 

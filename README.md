@@ -44,12 +44,15 @@
 
 ## InstanceOf.
 ## Nested Class.
-- Nested Class are divided into two types: "Static Nested Class" and "Inner Class".
+- Exist three types of classes: top-level class, Nested Class.
+- Nested Class divided into two types: "Static Nested Class" and "Inner Class".
+- Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
+- "Nested Class" mohut imet "access modifier": private, default, protected, public.
 
 ### Static Nested Class.
 
 #### Type of Static Nested Class
-Exist four types of Static Nested Class: interface, abstract class, class, enum.
+- Exist four types of Static Nested Class: interface, abstract class, class, enum.
 
 #### Variables
 - Non-static variables from "top-level class" cannot be used in the "static nested class".
@@ -60,12 +63,30 @@ Exist four types of Static Nested Class: interface, abstract class, class, enum.
 - Not allowed definition "static nested class" in the static method body.
 
 ### Inner Class.
+- Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
+- Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class".
+- Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class".
+- Raznue "Inner Class" mohut ssulatsa na odin i totze "top-level class".
+- "Inner Class" mozet bit obiavlion v methode. No znachenie kotoroe vozvrawchaet ethot method ne mozet bit tipos etoho "Inner Class". 
+  "Inner Class" kotorui obiavlaetsa v nytri methoda, ne viden za figurnumi scobcami etoho methoda. 
+  Znachenie cotoroe vozvrawchaet method mozet bit "Object type" i takim sposobom mozno vozvrawcaht "Inner Class" kororui opredelon v methode.
+- java memory leak. "Inner Class" mozet sprovocurovat "java memory leak". Do toho vremeni kohda ziv "Inner Class" bydet ziv "top-level calss",
+  "Garbage Collector" ne smozet ydalit "top-level class".
 
 #### Type of Inner Class
-Exist four types of Inner Class: interface, abstract class, class, enum.
+- Exist four types of Inner Class: interface, abstract class, class, enum.
 
-#### Variables
-Static and non-static variables from top-level class can be used in the inner class.
+#### Variables.
+- Static and non-static variables from top-level class can be used in the inner class.
+
+#### Local Inner Class.
+* [Local Inner Class can't have an access specifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
+* [Local Inner Class can't be declared static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
+* [Local Inner Class can't have an variables static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
+* [Local Inner Class can't have an methods static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
+* [Local Inner Class have access to all variables of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
+* [Local Inner Class have access to all methods of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
+* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
 
 ## Methods from Object class.
 ## Virtual Methods.

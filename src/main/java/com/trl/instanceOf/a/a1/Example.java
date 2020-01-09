@@ -1,40 +1,74 @@
 package com.trl.instanceOf.a.a1;
 
+import static java.lang.System.out;
+
 public class Example {
     public static void main(String[] args) {
 
-        Animal animal_cat = new Cat();
-//        System.out.println(animal_cat instanceof Animal);
-//        System.out.println(animal_cat instanceof Cat);
-//        System.out.println(animal_cat instanceof Dog);
+        Birds birdsNull = null;
+        out.println(birdsNull instanceof Object);
+        out.println(birdsNull instanceof Forest);
+        out.println(birdsNull instanceof Animal);
+        out.println(birdsNull instanceof Birds);
+        out.println(birdsNull instanceof Crow);
+        out.println(birdsNull instanceof Parrot);
+//        out.println(birdsNull instanceof Fish);                                               // Compilation ERROR !!!
+        out.println();
 
-        Animal animal_dog = new Dog();
-        Animal animal_null = null;
-//        System.out.println("animal_dog instanceof Object = " + (animal_dog instanceof Object));
-//        System.out.println("animal_null instanceof Object = " + (animal_null instanceof Object));
-        // Attention!!!
-//        System.out.println("animal_dog instanceof Object = " + animal_dog instanceof Object);
-//        System.out.println("animal_null instanceof Object = " + animal_null instanceof Object);
+        Birds birds = new Birds() {
+        };
+        out.println(birds instanceof Object);
+        out.println(birds instanceof Forest);
+        out.println(birds instanceof Animal);
+        out.println(birds instanceof Birds);
+        out.println(birds instanceof Crow);
+        out.println(birds instanceof Parrot);
+//        out.println(birds instanceof Fish);                                                   // Compilation ERROR !!!
+        out.println();
 
-        Dog dog = new Dog();
-//        System.out.println(dog instanceof Cat);              // Compilation ERROR!!!
-//        System.out.println(dog instanceof Animal_2);              // Compilation ERROR!!!
-        System.out.println("dog instanceof IAnimal = " + (dog instanceof IAnimal));
+        Birds crow = new Crow();
+        out.println(crow instanceof Object);
+        out.println(crow instanceof Forest);
+        out.println(crow instanceof Animal);
+        out.println(crow instanceof Birds);
+        out.println(crow instanceof Crow);
+        out.println(crow instanceof Parrot);
+//        out.println(birds instanceof Fish);                                                   // Compilation ERROR !!!
+        out.println();
+
+        Crow crow1 = new Crow();
+        out.println(crow1 instanceof Object);
+        out.println(crow1 instanceof Forest);
+        out.println(crow1 instanceof Animal);
+        out.println(crow1 instanceof Birds);
+        out.println(crow1 instanceof Crow);
+//        out.println(crow1 instanceof Parrot);                                                 // Compilation ERROR !!!
+//        out.println(birds instanceof Fish);                                                   // Compilation ERROR !!!
+        out.println();
+
+        // Attention Concatenation !!!
+        out.println("crow1 instanceof Object = " + crow1 instanceof Object);
+        out.println("birds instanceof Object = " + birds instanceof Object);
+        out.println("crow1 instanceof Object = " + (crow1 instanceof Object));
+        out.println("birds instanceof Object = " + (birds instanceof Object));
 
     }
 }
 
-interface IAnimal {
+interface Forest {
 }
 
-class Animal {
+interface Animal {
 }
 
-class Animal_2 {
+abstract class Birds implements Animal {
 }
 
-class Cat extends Animal {
+abstract class Fish implements Animal {
 }
 
-class Dog extends Animal {
+class Crow extends Birds {
+}
+
+class Parrot extends Birds {
 }
