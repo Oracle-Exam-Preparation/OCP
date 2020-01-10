@@ -21,7 +21,7 @@
 * [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
 ### Inheritance.
-* [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
+* [Inheritance not allowed for "Enum". It is only allowed to implement the interface.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
 
 ### Using "Switch" with "Enum".
 * [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
@@ -41,6 +41,9 @@
 * [Is not mandatory implementing methods in every "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
 * [If "Enum" value, have defined method, "Enum" required to have defined this method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
 * [Is allowed implementing many method in "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
+
+### Note to self.
+* [1](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
 
 ## InstanceOf.
 ## Nested Class.
