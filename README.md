@@ -44,7 +44,7 @@
 
 ## InstanceOf.
 ## Nested Class.
-- Exist three types of classes: top-level class, Nested Class.
+- Exist two types of classes: top-level class, Nested Class.
 - Nested Class divided into two types: "Static Nested Class" and "Inner Class".
 - Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
 - "Nested Class" mohut imet "access modifier": private, default, protected, public.
@@ -62,7 +62,12 @@
 - Not allowed definition "static nested class" in the method body.
 - Not allowed definition "static nested class" in the static method body.
 
+#### Local Static Nested Class.
+* [The definition for the "Local Static Nested Class" is not allowed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
+
+
 ### Inner Class.
+- The "Inner Class" has a subtype that name is "Local Inner Class".
 - Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
 - Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class".
 - Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class".
@@ -80,7 +85,8 @@
 - Static and non-static variables from top-level class can be used in the inner class.
 
 #### Local Inner Class.
-* [Local Inner Class can't have an access specifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
+* [The definition for the "Local Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
+* [Local Inner Class can't have an access modifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
 * [Local Inner Class can't be declared static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
 * [Local Inner Class can't have an variables static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
 * [Local Inner Class can't have an methods static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
