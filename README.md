@@ -18,29 +18,29 @@
 
 ## Enum.
 ### Constructor.
-* [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumConstructor/a/a1/Example.java)
+* [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
 ### Inheritance.
-* [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/inheritance/a/a1/Example.java)
+* [Inheritance not allowed for "Enum".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
 
 ### Using "Switch" with "Enum".
-* [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/enumSwitch/a/a1/Example.java)
+* [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
 
 ### Pre-defined Methods.
-* [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
-* [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methodsOfEnum/values/a/a1/Example.java)
+* [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
+* [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
 
 ### Definition abstract methods in "Enum", and implementation this abstract methods in "Enum Value".
-* [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a1/Example.java)
-* [Each and every "Enum Value", required to implement abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a2/Example.java)
-* [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a/a3/Example.java)
-* [Is allowed implementation many abstract method in "Enum Values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/abstractMethod/a4/Example.java)
+* [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
+* [Each and every "Enum Value", required to implement abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
+* [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
+* [Is allowed implementation many abstract method in "Enum Values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
 
 ### Definition methods in "Enum", and implementation this methods in "Enum Value".
-* [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/a/a1/Example.java)
-* [Is not mandatory implementing methods in every "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/a/a2/Example.java)
-* [If "Enum" value, have defined method, "Enum" required to have defined this method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/a/a3/Example.java)
-* [Is allowed implementing many method in "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/_enum/methods/a/a4/Example.java)
+* [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
+* [Is not mandatory implementing methods in every "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
+* [If "Enum" value, have defined method, "Enum" required to have defined this method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
+* [Is allowed implementing many method in "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
 
 ## InstanceOf.
 ## Nested Class.
@@ -63,7 +63,7 @@
 - Not allowed definition "static nested class" in the static method body.
 
 #### Local Static Nested Class.
-* [The definition for the "Local Static Nested Class" is not allowed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
+* [The definition for the "Local Static Nested Class" is not allowed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 
 
 ### Inner Class.
@@ -85,14 +85,14 @@
 - Static and non-static variables from top-level class can be used in the inner class.
 
 #### Local Inner Class.
-* [The definition for the "Local Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
-* [Local Inner Class can't have an access modifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
-* [Local Inner Class can't be declared static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
-* [Local Inner Class can't have an variables static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
-* [Local Inner Class can't have an methods static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
-* [Local Inner Class have access to all variables of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
-* [Local Inner Class have access to all methods of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
-* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
+* [The definition for the "Local Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
+* [Local Inner Class can't have an access modifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
+* [Local Inner Class can't be declared static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
+* [Local Inner Class can't have an variables static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
+* [Local Inner Class can't have an methods static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
+* [Local Inner Class have access to all variables of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
+* [Local Inner Class have access to all methods of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
+* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
 
 ## Methods from Object class.
 ## Virtual Methods.
