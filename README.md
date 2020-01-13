@@ -16,6 +16,15 @@
 - This project may contain invalid or false information.
 - Always check the information you are learning.
 
+
+
+
+
+
+
+
+
+
 ## Enum.
 ### Constructor.
 * [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
@@ -45,12 +54,32 @@
 ### Note to self.
 * [1](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
 
+
+
+
+
+
+
+
+
+
+
 ## InstanceOf.
+
+
+
+
+
+
+
+
+
+
 ## Nested Class.
 - Exist two types of classes: top-level class, Nested Class.
 - Nested Class divided into two types: "Static Nested Class" and "Inner Class".
 - Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
-- "Nested Class" mohut imet "access modifier": private, default, protected, public.
+- "Nested Class" may have "access modifier": private, default, protected, public.
 
 ### Static Nested Class.
 
@@ -134,10 +163,37 @@
 
 
 ## Methods from Object class.
+
+
+
+
+
+
+
+
+
+
 ## Virtual Methods.
+
+
+
+
+
+
+
+
+
 
 ## Help
 
-## License
 
+
+
+
+
+
+
+
+
+## License
 Apache 2.0, see [LICENSE](LICENSE).
