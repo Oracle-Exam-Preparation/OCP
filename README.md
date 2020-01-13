@@ -151,9 +151,9 @@
 #### Variables.
 * [Access to variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/a/a1/Example.java)
 * [Access to variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
-* [Access to final variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
+* [Access to final variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
 * [The final variables from the "Anonymous Class" cannot be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_final/b/b1/Example.java)
-* [Access to static variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/a/a1/Example.java)
+* [Access to static variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/a/a1/Example.java)
 * [The final variables from the "Anonymous Class" can be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/b/b1/Example.java)
 * [Private variables are not allowed to redefine. Variables of access modifier: public, protected, package is allowed redefine, 
    considering the relationship policy of "Access Modifiers".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/accessModifier/a/a1/Example.java)
