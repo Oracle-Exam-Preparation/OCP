@@ -123,7 +123,7 @@
 * [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
 
 
-[test enalce](test.md).
+[test enalce](README_2.md).
 
 
 ## Methods from Object class.
