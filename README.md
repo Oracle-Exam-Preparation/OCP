@@ -102,7 +102,7 @@
    methods" from this "Abstract Class" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_abstract/a/a1/Example.java)
 * [If type of an "Anonymous Class" is "Interface". And this "Interface" have "abstract methods", all "abstract method" 
    from this "Interface" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
-* [Type of an "Anonymous Class" is "Static Nested Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
+* [Type of an "Anonymous Class" is "Static Nested Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/staticNestedClass/a/a1/Example.java)
 * [Type of an "Anonymous Class" is "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/innerClass/a/a1/Example.java)
 
 #### Initialization. 
@@ -123,7 +123,14 @@
 * [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
 
 
-[test enalce](README_2.md).
+
+
+
+
+
+
+
+
 
 
 ## Methods from Object class.
