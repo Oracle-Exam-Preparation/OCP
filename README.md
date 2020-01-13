@@ -140,17 +140,23 @@
 #### Final Class.
 * [An type of an "Anonymous Class" cannot be final.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_final/a/a1/Example.java)
 
-#### Final Method.
+#### Methods.
 * [If some type of an "Anonymous Class" have "final method" and you want implement this "final method", that will be impossible. 
-   It is not allowed to redefine final methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_final/a/a1/Example.java)
-   
-#### Static Method.
+   It is not allowed to redefine final methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_final/a/a1/Example.java)   
 * [If some type of an "Anonymous Class" have "static method" and you want implement this "static method", that will be impossible. 
    It is not allowed to redefine static methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_static/a/a1/Example.java)
+* [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine, 
+   considering the relationship policy of "Access Modifiers".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
 
-#### Access Modifier of Method.
-* [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
-
+#### Variables.
+* [Access to variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/a/a1/Example.java)
+* [Access to variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
+* [Access to final variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
+* [The final variables from the "Anonymous Class" cannot be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_final/b/b1/Example.java)
+* [Access to static variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/a/a1/Example.java)
+* [The final variables from the "Anonymous Class" can be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/b/b1/Example.java)
+* [Private variables are not allowed to redefine. Variables of access modifier: public, protected, package is allowed redefine, 
+   considering the relationship policy of "Access Modifiers".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/accessModifier/a/a1/Example.java)
 
 
 
