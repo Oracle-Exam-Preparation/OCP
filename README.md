@@ -97,6 +97,35 @@
 * [Local Inner Class have access to all methods of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
 * [Local Inner Class have access to local variables without access modifier and final local variables of the method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
 
+### Anonymous Class.
+* [If type of an "Anonymous Class" is "Abstract Class". And this "Abstract Class" have "abstract methods", all "abstract 
+   methods" from this "Abstract Class" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_abstract/a/a1/Example.java)
+* [If type of an "Anonymous Class" is "Interface". And this "Interface" have "abstract methods", all "abstract method" 
+   from this "Interface" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
+* [Type of an "Anonymous Class" is "Static Nested Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
+* [Type of an "Anonymous Class" is "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/innerClass/a/a1/Example.java)
+
+#### Initialization. 
+* [Initialization of "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/initialization/a/a1/Example.java)
+
+#### Final Class.
+* [An type of an "Anonymous Class" cannot be final.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_final/a/a1/Example.java)
+
+#### Final Method.
+* [If some type of an "Anonymous Class" have "final method" and you want implement this "final method", that will be impossible. 
+   It is not allowed to redefine final methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_final/a/a1/Example.java)
+   
+#### Static Method.
+* [If some type of an "Anonymous Class" have "static method" and you want implement this "static method", that will be impossible. 
+   It is not allowed to redefine static methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_static/a/a1/Example.java)
+
+#### Access Modifier of Method.
+* [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
+
+
+
+
+
 ## Methods from Object class.
 ## Virtual Methods.
 
