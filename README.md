@@ -1,17 +1,17 @@
-# OCP Exam Preparation. #
+# OCP Exam Preparation.
 
 * [About](#about)
 * [Help](#help)
 * [License](#license)
 
-## Contents at a Glance. ##
+## Contents at a Glance.
 * [Enum](#enum)
 * [InstanceOf](#instanceof)
 * [Nested Class](#nested-class)
 * [Methods from Object Class](#methods-from-object-class)
 * [Virtual Methods](#virtual-methods)
 
-# About. #
+## About.
 1. This project created for educational purposes.
 2. This project may contain invalid or false information.
 3. Always check the information you are learning.
@@ -20,49 +20,79 @@
 
 
 
-> This is the first level of quoting.
->
-> > This is nested blockquote.
-> > > This is nested blockquote.
-> > > > This is nested blockquote.
-> > > > > This is nested blockquote.
-> > > > > > This is nested blockquote.
-> > > > > > >This is nested blockquote.
->
-> Back to the first level.
 
 
 
 
-# Enum. #
+
+## Enum.
 ### Constructor.
-* [Enum constructor must have access modifier private or package.](src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
+[Enum constructor must have access modifier private or package.](src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
 ### Inheritance.
-* [Inheritance not allowed for "Enum". It is only allowed to implement the interface.](src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
+[Inheritance not allowed for "Enum". It is only allowed to implement the interface.](src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
 
 ### Using "Switch" with "Enum".
-* [Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
+[Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
 
 ### Pre-defined Methods.
-* [Work with "Enum" method "valueOf".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
-* [Work with "Enum" method "values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
-* [Work with "Enum" method "ordinal".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
+[Work with "Enum" method "valueOf".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
+[Work with "Enum" method "values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
+[Work with "Enum" method "ordinal".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
 
 ### Definition abstract methods in "Enum", and implementation this abstract methods in "Enum Value".
-* [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
-* [Each and every "Enum Value", required to implement abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
-* [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
-* [Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
+[Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
+[Each and every "Enum Value", required to implement abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
+[If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
+[Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
 
 ### Definition methods in "Enum", and implementation this methods in "Enum Value".
-* [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
-* [Is not mandatory implementing methods in every "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
-* [If "Enum" value, have defined method, "Enum" required to have defined this method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
-* [Is allowed implementing many method in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
+[Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
+[Is not mandatory implementing methods in every "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
+[If "Enum" value, have defined method, "Enum" required to have defined this method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
+[Is allowed implementing many method in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
 
 ### Note to self.
-* [1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+[1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+
+
+
+
+
+
+
+>## Enum.
+>>### Constructor.
+>>[Enum constructor must have access modifier private or package.](src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
+>
+>>### Inheritance.
+>>[Inheritance not allowed for "Enum". It is only allowed to implement the interface.](src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
+>
+>>### Using "Switch" with "Enum".
+>>[Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
+>
+>>### Pre-defined Methods.
+>>[Work with "Enum" method "valueOf".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
+>>[Work with "Enum" method "values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
+>>[Work with "Enum" method "ordinal".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
+>
+>>### Definition abstract methods in "Enum", and implementation this abstract methods in "Enum Value".
+>>[Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
+>>[Each and every "Enum Value", required to implement abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
+>>[If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
+>>[Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
+>
+>>### Definition methods in "Enum", and implementation this methods in "Enum Value".
+>[Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
+>>[Is not mandatory implementing methods in every "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
+>>[If "Enum" value, have defined method, "Enum" required to have defined this method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
+>>[Is allowed implementing many method in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
+>
+>>### Note to self.
+>>[1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+
+
+
 
 
 
