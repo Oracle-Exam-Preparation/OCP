@@ -96,6 +96,10 @@ This project created for educational purposes, and this project may contain inva
 >>>
 >>>> #### Static.
 >>>> * Static variables from "top-level class" can be used in the "static nested class".
+>>> 
+>>>> #### Final.
+>>> 
+>>>> #### Access Modifier.
 >>
 >>> #### Definition "Static Nested Class" in the method.
 >>> * Not allowed definition "static nested class" in the method body.
