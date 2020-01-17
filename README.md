@@ -12,9 +12,9 @@
 * [Virtual Methods](#virtual-methods)
 
 ## About.
-1. This project created for educational purposes.
-2. This project may contain invalid or false information.
-3. Always check the information you are learning.
+This project created for educational purposes. <br/>
+This project may contain invalid or false information. <br/>
+Always check the information you are learning. <br/>
 
 
 
