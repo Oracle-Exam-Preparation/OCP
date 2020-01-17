@@ -104,10 +104,10 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Definition "Static Nested Class" in the method.
 >>> * Not allowed definition "static nested class" in the method body.
 >>> * Not allowed definition "static nested class" in the static method body.
->>
->>> #### Local Static Nested Class.
->>> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
->>
+>
+>> ### Local Static Nested Class.
+>> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
+>
 ### Inner Class.
 - The "Inner Class" has a subtype that name is "Local Inner Class".
 - Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
