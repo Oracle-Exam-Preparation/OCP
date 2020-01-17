@@ -1,31 +1,30 @@
-# OCP Exam Preparation.
+# OCP Exam Preparation. #
 
 * [About](#about)
 * [Help](#help)
 * [License](#license)
 
-## Contents at a Glance.
+## Contents at a Glance. ##
 * [Enum](#enum)
 * [InstanceOf](#instanceof)
 * [Nested Class](#nested-class)
 * [Methods from Object Class](#methods-from-object-class)
 * [Virtual Methods](#virtual-methods)
 
-## About.
-- This project created for educational purposes.
-- This project may contain invalid or false information.
-- Always check the information you are learning.
+# About. #
+1. This project created for educational purposes.
+2. This project may contain invalid or false information.
+3. Always check the information you are learning.
+
+![Alt text](/path/to/img.jpg)
+[Alt text](src/main/java/com/trl/theoreticalKnowledge/_enum/a/a1/Example.java)
 
 
 
 
 
 
-
-
-
-
-## Enum.
+# Enum. #
 ### Constructor.
 * [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
@@ -38,6 +37,7 @@
 ### Pre-defined Methods.
 * [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
 * [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
+* [Work with "Enum" method "ordinal".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
 
 ### Definition abstract methods in "Enum", and implementation this abstract methods in "Enum Value".
 * [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
@@ -64,7 +64,7 @@
 
 
 
-## InstanceOf.
+# InstanceOf.
 
 
 
@@ -114,7 +114,14 @@
 - Exist four types of Inner Class: interface, abstract class, class, enum.
 
 #### Variables.
-- Static and non-static variables from top-level class can be used in the inner class.
+* [Non-static variables from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
+* [Static variables from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+* [Non-static variables can be use in "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
+* [Static variables is not allow use in "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
+
+#### Methods.
+* [Static and non-static methods from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+- Static methods is not allow use in "Inner Class".
 
 #### Local Inner Class.
 * [The definition for the "Local Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)

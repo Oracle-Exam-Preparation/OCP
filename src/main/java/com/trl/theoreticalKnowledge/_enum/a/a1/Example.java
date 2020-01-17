@@ -12,3 +12,7 @@ public class Example {
 enum Color {
     WHITE, BLACK, YELLOW, RED
 }
+
+enum Color_2 {
+    WHITE, BLACK, YELLOW, RED;
+}

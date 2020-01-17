@@ -16,5 +16,4 @@ class Human {
             System.out.println(name);
         }
     }
-
 }
