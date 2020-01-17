@@ -16,7 +16,9 @@
 2. This project may contain invalid or false information.
 3. Always check the information you are learning.
 
-[Alt text](src/main/java/com/trl/theoreticalKnowledge/_enum/a/a1/Example.java)
+
+
+
 
 
 
@@ -28,30 +30,30 @@
 * [Enum constructor must have access modifier private or package.](src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
 ### Inheritance.
-* [Inheritance not allowed for "Enum". It is only allowed to implement the interface.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
+* [Inheritance not allowed for "Enum". It is only allowed to implement the interface.](src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
 
 ### Using "Switch" with "Enum".
-* [Work with "Enum" and with "Switch".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
+* [Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
 
 ### Pre-defined Methods.
-* [Work with "Enum" method "valueOf".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
-* [Work with "Enum" method "values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
-* [Work with "Enum" method "ordinal".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
+* [Work with "Enum" method "valueOf".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/valueOf/a/a1/Example.java)
+* [Work with "Enum" method "values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/values/a/a1/Example.java)
+* [Work with "Enum" method "ordinal".](src/main/java/com/trl/theoreticalKnowledge/_enum/methodsOfEnum/ordinal/a/a1/Example.java)
 
 ### Definition abstract methods in "Enum", and implementation this abstract methods in "Enum Value".
-* [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
-* [Each and every "Enum Value", required to implement abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
-* [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
-* [Is allowed implementation many abstract method in "Enum Values".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
+* [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
+* [Each and every "Enum Value", required to implement abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
+* [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
+* [Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
 
 ### Definition methods in "Enum", and implementation this methods in "Enum Value".
-* [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
-* [Is not mandatory implementing methods in every "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
-* [If "Enum" value, have defined method, "Enum" required to have defined this method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
-* [Is allowed implementing many method in "Enum" values.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
+* [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
+* [Is not mandatory implementing methods in every "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
+* [If "Enum" value, have defined method, "Enum" required to have defined this method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
+* [Is allowed implementing many method in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
 
 ### Note to self.
-* [1](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+* [1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
 
 
 
@@ -94,7 +96,7 @@
 - Not allowed definition "static nested class" in the static method body.
 
 #### Local Static Nested Class.
-* [The definition for the "Local Static Nested Class" is not allowed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
+* [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 
 
 ### Inner Class.
@@ -113,56 +115,56 @@
 - Exist four types of Inner Class: interface, abstract class, class, enum.
 
 #### Variables.
-* [Non-static variables from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
-* [Static variables from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
-* [Non-static variables can be use in "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
-* [Static variables is not allow use in "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
+* [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
+* [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+* [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
+* [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
 
 #### Methods.
-* [Static and non-static methods from top-level class can be used in the inner class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+* [Static and non-static methods from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
 - Static methods is not allow use in "Inner Class".
 
 #### Local Inner Class.
-* [The definition for the "Local Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
-* [Local Inner Class can't have an access modifier.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
-* [Local Inner Class can't be declared static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
-* [Local Inner Class can't have an variables static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
-* [Local Inner Class can't have an methods static.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
-* [Local Inner Class have access to all variables of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
-* [Local Inner Class have access to all methods of the outer class.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
-* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
+* [The definition for the "Local Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
+* [Local Inner Class can't have an access modifier.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
+* [Local Inner Class can't be declared static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
+* [Local Inner Class can't have an variables static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
+* [Local Inner Class can't have an methods static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
+* [Local Inner Class have access to all variables of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
+* [Local Inner Class have access to all methods of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
+* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
 
 ### Anonymous Class.
 * [If type of an "Anonymous Class" is "Abstract Class". And this "Abstract Class" have "abstract methods", all "abstract 
-   methods" from this "Abstract Class" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_abstract/a/a1/Example.java)
+   methods" from this "Abstract Class" is mandatory must be defined.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_abstract/a/a1/Example.java)
 * [If type of an "Anonymous Class" is "Interface". And this "Interface" have "abstract methods", all "abstract method" 
-   from this "Interface" is mandatory must be defined.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
-* [Type of an "Anonymous Class" is "Static Nested Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/staticNestedClass/a/a1/Example.java)
-* [Type of an "Anonymous Class" is "Inner Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/innerClass/a/a1/Example.java)
+   from this "Interface" is mandatory must be defined.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_interface/a/a1/Example.java)
+* [Type of an "Anonymous Class" is "Static Nested Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/staticNestedClass/a/a1/Example.java)
+* [Type of an "Anonymous Class" is "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/innerClass/a/a1/Example.java)
 
 #### Initialization. 
-* [Initialization of "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/initialization/a/a1/Example.java)
+* [Initialization of "Anonymous Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/initialization/a/a1/Example.java)
 
 #### Final Class.
-* [An type of an "Anonymous Class" cannot be final.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_final/a/a1/Example.java)
+* [An type of an "Anonymous Class" cannot be final.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/_final/a/a1/Example.java)
 
 #### Methods.
 * [If some type of an "Anonymous Class" have "final method" and you want implement this "final method", that will be impossible. 
-   It is not allowed to redefine final methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_final/a/a1/Example.java)   
+   It is not allowed to redefine final methods.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_final/a/a1/Example.java)   
 * [If some type of an "Anonymous Class" have "static method" and you want implement this "static method", that will be impossible. 
-   It is not allowed to redefine static methods.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_static/a/a1/Example.java)
+   It is not allowed to redefine static methods.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/_static/a/a1/Example.java)
 * [Private methods are not allowed to redefine. Methods of access modifier: public, protected, package is allowed redefine, 
-   considering the relationship policy of "Access Modifiers".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
+   considering the relationship policy of "Access Modifiers".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/methods/accessModifier/a/a1/Example.java)
 
 #### Variables.
-* [Access to variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/a/a1/Example.java)
-* [Access to variables of an "Anonymous Class" using "this".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
-* [Access to final variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
-* [The final variables from the "Anonymous Class" cannot be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_final/b/b1/Example.java)
-* [Access to static variables of an "Anonymous Class".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/a/a1/Example.java)
-* [The final variables from the "Anonymous Class" can be changed.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/b/b1/Example.java)
+* [Access to variables of an "Anonymous Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/a/a1/Example.java)
+* [Access to variables of an "Anonymous Class" using "this".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
+* [Access to final variables of an "Anonymous Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_this/a/a1/Example.java)
+* [The final variables from the "Anonymous Class" cannot be changed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_final/b/b1/Example.java)
+* [Access to static variables of an "Anonymous Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/a/a1/Example.java)
+* [The final variables from the "Anonymous Class" can be changed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/_static/b/b1/Example.java)
 * [Private variables are not allowed to redefine. Variables of access modifier: public, protected, package is allowed redefine, 
-   considering the relationship policy of "Access Modifiers".](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/accessModifier/a/a1/Example.java)
+   considering the relationship policy of "Access Modifiers".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/anonymousClasses/variables/accessModifier/a/a1/Example.java)
 
 
 
