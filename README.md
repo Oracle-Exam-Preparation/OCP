@@ -138,6 +138,9 @@ This project created for educational purposes, and this project may contain inva
 >>> * Exist four types of Inner Class: interface, abstract class, class, enum.
 >> 
 >>> #### Variables.
+>>>
+>>>>  ##### Access Modifiers.
+>>>
 >>>>  ##### Non-static.
 >>>> * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
 >>>> * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
@@ -145,6 +148,8 @@ This project created for educational purposes, and this project may contain inva
 >>>>  ##### Static.
 >>>> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
 >>>> * [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
+>>>
+>>>>>  ##### Final.
 >>
 >>> #### Methods.
 >>>> ##### Non-static.
