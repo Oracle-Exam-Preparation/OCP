@@ -79,29 +79,28 @@ This project created for educational purposes, and this project may contain inva
 
 
 
-## Nested Class.
-- Exist two types of classes: top-level class, Nested Class.
-- Nested Class divided into two types: "Static Nested Class" and "Inner Class".
-- Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
-- "Nested Class" may have "access modifier": private, default, protected, public.
-
-### Static Nested Class.
-
-#### Type of Static Nested Class
-- Exist four types of Static Nested Class: interface, abstract class, class, enum.
-
-#### Variables
-- Non-static variables from "top-level class" cannot be used in the "static nested class".
-- Static variables from "top-level class" can be used in the "static nested class".
-
-#### Definition "Static Nested Class" in the method.
-- Not allowed definition "static nested class" in the method body.
-- Not allowed definition "static nested class" in the static method body.
-
-#### Local Static Nested Class.
-* [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
-
-
+> ## Nested Class.
+> * Exist two types of classes: top-level class, Nested Class.
+> * Nested Class divided into two types: "Static Nested Class" and "Inner Class".
+> * Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
+> * "Nested Class" may have "access modifier": private, default, protected, public.
+>
+>> ### Static Nested Class.
+>>
+>>> #### Type of Static Nested Class
+>>> - Exist four types of Static Nested Class: interface, abstract class, class, enum.
+>>
+>>> #### Variables
+>>> - Non-static variables from "top-level class" cannot be used in the "static nested class".
+>>> - Static variables from "top-level class" can be used in the "static nested class".
+>>
+>>> #### Definition "Static Nested Class" in the method.
+>>> - Not allowed definition "static nested class" in the method body.
+>>> - Not allowed definition "static nested class" in the static method body.
+>>
+>>> #### Local Static Nested Class.
+>>> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
+>>
 ### Inner Class.
 - The "Inner Class" has a subtype that name is "Local Inner Class".
 - Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
@@ -118,7 +117,7 @@ This project created for educational purposes, and this project may contain inva
 - Exist four types of Inner Class: interface, abstract class, class, enum.
 
 > #### Variables.
->> ##### Non-static.
+>>  ##### Non-static.
 >> * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
 >> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
 >> * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
