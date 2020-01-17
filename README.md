@@ -16,7 +16,6 @@
 2. This project may contain invalid or false information.
 3. Always check the information you are learning.
 
-![Alt text](/path/to/img.jpg)
 [Alt text](src/main/java/com/trl/theoreticalKnowledge/_enum/a/a1/Example.java)
 
 
@@ -26,7 +25,7 @@
 
 # Enum. #
 ### Constructor.
-* [Enum constructor must have access modifier private or package.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
+* [Enum constructor must have access modifier private or package.](src/main/java/com/trl/theoreticalKnowledge/_enum/enumConstructor/a/a1/Example.java)
 
 ### Inheritance.
 * [Inheritance not allowed for "Enum". It is only allowed to implement the interface.](https://github.com/OCP-Exam-Preparation/OCP/blob/master/src/main/java/com/trl/theoreticalKnowledge/_enum/inheritance/a/a1/Example.java)
