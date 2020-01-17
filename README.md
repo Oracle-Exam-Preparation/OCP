@@ -88,15 +88,17 @@ This project created for educational purposes, and this project may contain inva
 >> ### Static Nested Class.
 >>
 >>> #### Type of Static Nested Class
->>> - Exist four types of Static Nested Class: interface, abstract class, class, enum.
+>>> * Exist four types of Static Nested Class: interface, abstract class, class, enum.
 >>
->>> #### Variables
->>> - Non-static variables from "top-level class" cannot be used in the "static nested class".
->>> - Static variables from "top-level class" can be used in the "static nested class".
+>>> #### Variables.
+>>>> #### Non-static.
+>>>> * Non-static variables from "top-level class" cannot be used in the "static nested class".
+>>>> #### Static.
+>>>> * Static variables from "top-level class" can be used in the "static nested class".
 >>
 >>> #### Definition "Static Nested Class" in the method.
->>> - Not allowed definition "static nested class" in the method body.
->>> - Not allowed definition "static nested class" in the static method body.
+>>> * Not allowed definition "static nested class" in the method body.
+>>> * Not allowed definition "static nested class" in the static method body.
 >>
 >>> #### Local Static Nested Class.
 >>> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
