@@ -93,6 +93,7 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Variables.
 >>>> #### Non-static.
 >>>> * Non-static variables from "top-level class" cannot be used in the "static nested class".
+>>>
 >>>> #### Static.
 >>>> * Static variables from "top-level class" can be used in the "static nested class".
 >>
