@@ -91,32 +91,32 @@ This project created for educational purposes, and this project may contain inva
 >>> * Exist four types of Static Nested Class: interface, abstract class, class, enum.
 >>
 >>> #### Constructors.
->>>
->>>> #### Access Modifier.
+>>> 
+>>>> ##### Access Modifier.
 >>
 >>> #### Variables.
 >>>
->>>> #### Access Modifier.
+>>>> ##### Access Modifier.
 >>> 
->>>> #### Non-static.
+>>>> ##### Non-static.
 >>>> * Non-static variables from "top-level class" cannot be used in the "static nested class".
 >>>
->>>> #### Static.
+>>>> ##### Static.
 >>>> * Static variables from "top-level class" can be used in the "static nested class".
 >>> 
->>>> #### Final.
+>>>> ##### Final.
 >>
 >>> #### Methods.
 >>>
->>>> #### Access Modifier.
+>>>> ##### Access Modifier.
 >>> 
->>>> #### Non-static.
+>>>> ##### Non-static.
 >>>> * Not allowed definition "static nested class" in the method body.
 >>>
->>>> #### Static.
+>>>> ##### Static.
 >>>> * Not allowed definition "static nested class" in the static method body.
 >>> 
->>>> #### Final.
+>>>> ##### Final.
 >>
 >
 >> ### Local Static Nested Class.
