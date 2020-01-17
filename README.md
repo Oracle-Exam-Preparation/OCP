@@ -122,31 +122,36 @@ This project created for educational purposes, and this project may contain inva
 >> ### Local Static Nested Class.
 >> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 >
-### Inner Class.
-- The "Inner Class" has a subtype that name is "Local Inner Class".
-- Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
-- Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class".
-- Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class".
-- Raznue "Inner Class" mohut ssulatsa na odin i totze "top-level class".
-- "Inner Class" mozet bit obiavlion v methode. No znachenie kotoroe vozvrawchaet ethot method ne mozet bit tipos etoho "Inner Class". 
-  "Inner Class" kotorui obiavlaetsa v nytri methoda, ne viden za figurnumi scobcami etoho methoda. 
-  Znachenie cotoroe vozvrawchaet method mozet bit "Object type" i takim sposobom mozno vozvrawcaht "Inner Class" kororui opredelon v methode.
-- java memory leak. "Inner Class" mozet sprovocurovat "java memory leak". Do toho vremeni kohda ziv "Inner Class" bydet ziv "top-level calss",
-  "Garbage Collector" ne smozet ydalit "top-level class".
-
-#### Type of Inner Class
-- Exist four types of Inner Class: interface, abstract class, class, enum.
-
-> #### Variables.
->>  ##### Non-static.
->> * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
->> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
->> * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
->> * [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
-
-#### Methods.
-* [Static and non-static methods from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
-- Static methods is not allow use in "Inner Class".
+>> ### Inner Class.
+>> * The "Inner Class" has a subtype that name is "Local Inner Class".
+>> * Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
+>> * Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class".
+>> * Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class".
+>> * Raznue "Inner Class" mohut ssulatsa na odin i totze "top-level class".
+>> * "Inner Class" mozet bit obiavlion v methode. No znachenie kotoroe vozvrawchaet ethot method ne mozet bit tipos etoho "Inner Class". 
+>>   "Inner Class" kotorui obiavlaetsa v nytri methoda, ne viden za figurnumi scobcami etoho methoda. 
+>>   Znachenie cotoroe vozvrawchaet method mozet bit "Object type" i takim sposobom mozno vozvrawcaht "Inner Class" kororui opredelon v methode.
+>> * java memory leak. "Inner Class" mozet sprovocurovat "java memory leak". Do toho vremeni kohda ziv "Inner Class" bydet ziv "top-level calss",
+>>   "Garbage Collector" ne smozet ydalit "top-level class".
+>> 
+>>> #### Type of Inner Class
+>>> * Exist four types of Inner Class: interface, abstract class, class, enum.
+>> 
+>>> #### Variables.
+>>>>  ##### Non-static.
+>>>> * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
+>>>> * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
+>>>
+>>>>  ##### Static.
+>>>> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+>>>> * [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
+>>
+>>> #### Methods.
+>>>> ##### Non-static.
+>>>
+>>>> ##### Static.
+>>>> * [Static and non-static methods from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
+>>>> * Static methods is not allow use in "Inner Class".
 
 #### Local Inner Class.
 * [The definition for the "Local Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
