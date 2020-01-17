@@ -1,20 +1,17 @@
 # OCP Exam Preparation.
 
-* [About](#about)
-* [Help](#help)
-* [License](#license)
-
 ## Contents at a Glance.
+* [About](#about)
 * [Enum](#enum)
 * [InstanceOf](#instanceof)
 * [Nested Class](#nested-class)
 * [Methods from Object Class](#methods-from-object-class)
 * [Virtual Methods](#virtual-methods)
+* [Help](#help)
+* [License](#license)
 
 ## About.
-This project created for educational purposes. <br/>
-This project may contain invalid or false information. <br/>
-Always check the information you are learning. <br/>
+This project created for educational purposes, and this project may contain invalid or false information always check the information you are learning. <br/>
 
 
 
@@ -121,6 +118,7 @@ Always check the information you are learning. <br/>
 - Exist four types of Inner Class: interface, abstract class, class, enum.
 
 #### Variables.
+##### Non-static.
 * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
 * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
 * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
