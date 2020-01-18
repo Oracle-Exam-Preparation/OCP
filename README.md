@@ -35,7 +35,7 @@ This project created for educational purposes, and this project may contain inva
 >> ### Using "Switch" with "Enum".
 >> * [Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
 >
->> Values.
+>> ### Values.
 >
 >> ### Methods.
 >>> #### Pre-defined Methods.
@@ -62,6 +62,14 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Final
 >
 >> ### Variables.
+>>
+>>> #### Access Modifier.
+>>
+>>> #### Non-static.
+>>
+>>> #### Static
+>>
+>>> #### Final
 >
 >> ### Note to self.
 >> * [1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
