@@ -107,7 +107,6 @@ This project created for educational purposes, and this project may contain inva
 > * Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
 > * "Nested Class" may have "access modifier": private, default, protected, public.
 >
-
 >> ### Static Nested Class.
 >>
 >>> #### Type of Static Nested Class
@@ -151,11 +150,9 @@ This project created for educational purposes, and this project may contain inva
 >>> * [Null Reference.]()
 >>
 >
-
 >> ### Local Static Nested Class.
 >> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 >
-
 >> ### Inner Class.
 >> * The "Inner Class" has a subtype that name is "Local Inner Class".
 >> * Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
@@ -213,12 +210,11 @@ This project created for educational purposes, and this project may contain inva
 >>> * [Null Reference.]()
 >>
 >
-
 >> ### Local Inner Class.
 >> * [The definition for the "Local Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
 >> * [Local Inner Class can't have an access modifier.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
 >> * [Local Inner Class can't be declared static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
-* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
+>> * [Local Inner Class have access to local variables without access modifier and final local variables of the method.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
 >>
 >>> #### Type of Local Inner Class
 >>
