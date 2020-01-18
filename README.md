@@ -107,10 +107,15 @@ This project created for educational purposes, and this project may contain inva
 > * Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
 > * "Nested Class" may have "access modifier": private, default, protected, public.
 >
+
 >> ### Static Nested Class.
 >>
 >>> #### Type of Static Nested Class
 >>> * Exist four types of Static Nested Class: interface, abstract class, class, enum.
+>>
+>>> ### Inheritance.
+>>
+>>> ### Access Modifier of "Static Nested Class".
 >>
 >>> #### Constructors.
 >>> 
@@ -131,7 +136,9 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Methods.
 >>>
 >>>> ##### Access Modifier.
->>> 
+>>>
+>>>> ##### Abstract.
+>>>
 >>>> ##### Non-static.
 >>>> * Not allowed definition "static nested class" in the method body.
 >>>
@@ -140,10 +147,15 @@ This project created for educational purposes, and this project may contain inva
 >>> 
 >>>> ##### Final.
 >>
+>>> #### Note to self.
+>>> * [Null Reference.]()
+>>
 >
+
 >> ### Local Static Nested Class.
 >> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 >
+
 >> ### Inner Class.
 >> * The "Inner Class" has a subtype that name is "Local Inner Class".
 >> * Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
@@ -155,49 +167,104 @@ This project created for educational purposes, and this project may contain inva
 >>   Znachenie cotoroe vozvrawchaet method mozet bit "Object type" i takim sposobom mozno vozvrawcaht "Inner Class" kororui opredelon v methode.
 >> * java memory leak. "Inner Class" mozet sprovocurovat "java memory leak". Do toho vremeni kohda ziv "Inner Class" bydet ziv "top-level calss",
 >>   "Garbage Collector" ne smozet ydalit "top-level class".
->> 
+>>
 >>> #### Type of Inner Class
 >>> * Exist four types of Inner Class: interface, abstract class, class, enum.
->> 
->>> #### Constructors.
 >>
->>> #### Access Modifiers.
+>>> ### Inheritance.
+>>
+>>> ### Access Modifier of "Inner Class".
+>>
+>>> #### Constructors.
+>>> 
+>>>> ##### Access Modifier.
 >>
 >>> #### Variables.
 >>>
->>>>  ##### Access Modifiers.
->>>
->>>>  ##### Non-static.
+>>>> ##### Access Modifier.
+>>> 
+>>>> ##### Non-static.
 >>>> * [Non-static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/a/a1/Example.java)
 >>>> * [Non-static variables can be use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/c/c1/Example.java)
 >>>
->>>>  ##### Static.
+>>>> ##### Static.
 >>>> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
 >>>> * [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
->>>
->>>>  ##### Final.
+>>> 
+>>>> ##### Final.
 >>
 >>> #### Methods.
 >>>
->>>> ##### Access Modifiers.
+>>>> ##### Access Modifier.
 >>>
->>>> ##### Variables.
+>>>> ##### Abstract.
+>>>
+>>>> ##### Non-static.
+>>>> * [Non-static methods from top-level class can be used in the inner class.]()
+>>>> * [Non-static methods can be used in the "Inner Class".]()
+>>>
+>>>> ##### Static.
+>>>> * [Static methods from top-level class can be used in the inner class.]()
+>>>> * [Static methods is not allow use in "Inner Class".]()
+>>> 
+>>>> ##### Final.
+>>
+>>> #### Note to self.
+>>> * [Null Reference.]()
+>>
+>
+
+>> ### Local Inner Class.
+>> * [The definition for the "Local Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
+>> * [Local Inner Class can't have an access modifier.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
+>> * [Local Inner Class can't be declared static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
+* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
+>>
+>>> #### Type of Local Inner Class
+>>
+>>
+>>> ### Inheritance.
+>>
+>>> ### Access Modifier of "Local Inner Class".
+>>
+>>> #### Constructors.
+>>> 
+>>>> ##### Access Modifier.
+>>
+>>> #### Variables.
+>>> * [Local Inner Class have access to all variables of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
+>>>
+>>>> ##### Access Modifier.
+>>> 
+>>>> ##### Non-static.
+>>>
+>>>> ##### Static.
+>>>> * [Local Inner Class can't have an variables static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
+>>> 
+>>>> ##### Final.
+>>
+>>> #### Methods.
+>>> * [Local Inner Class have access to all methods of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
+>>>
+>>>> ##### Access Modifier.
+>>>
+>>>> ##### Abstract.
 >>>
 >>>> ##### Non-static.
 >>>
 >>>> ##### Static.
->>>> * [Static and non-static methods from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
->>>> * Static methods is not allow use in "Inner Class".
+>>>> * [Local Inner Class can't have an methods static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
+>>> 
+>>>> ##### Final.
+>>
+>>> #### Note to self.
+>>
+>
 
-#### Local Inner Class.
-* [The definition for the "Local Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/a/a1/Example.java)
-* [Local Inner Class can't have an access modifier.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/accessModifier/a/a1/Example.java)
-* [Local Inner Class can't be declared static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/a/a1/Example.java)
-* [Local Inner Class can't have an variables static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/variables/a/a1/Example.java)
-* [Local Inner Class can't have an methods static.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/_static/methods/a/a1/Example.java)
-* [Local Inner Class have access to all variables of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/a/a1/Example.java)
-* [Local Inner Class have access to all methods of the outer class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/methods/a/a1/Example.java)
-* [Local Inner Class have access to local variables without access modifier and final local variables of the method.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/localInnerClass/variables/localVariables/a/a1/Example.java)
+
+
+
+
 
 ### Anonymous Class.
 * [If type of an "Anonymous Class" is "Abstract Class". And this "Abstract Class" have "abstract methods", all "abstract 
