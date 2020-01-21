@@ -9,6 +9,7 @@
 * [Virtual Methods](#virtual-methods)
 * [Imports](#imports)
 * [Casting Values](#casting-values)
+* [Overriding](#overriding)
 * [Help](#help)
 * [License](#license)
 
@@ -392,6 +393,30 @@ This project created for educational purposes, and this project may contain inva
 ## Casting Values.
 * [If casting operation is incorrect while be throw "Runtime Exception".](src/main/java/com/trl/theoreticalKnowledge/castingValues/a/a1/Example.java)
 
+
+
+
+
+
+
+
+
+
+## Overriding.
+* [1.](src/main/java/com/trl/theoreticalKnowledge/override/a/a1/Example.java)
+
+
+
+
+
+
+
+
+
+
+> ## Inheritance.
+>> ### Variables
+>> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
 
 
 
