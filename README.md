@@ -36,6 +36,38 @@ This project created for educational purposes, and this project may contain inva
 >> * [Work with "Enum" and with "Switch".](src/main/java/com/trl/theoreticalKnowledge/_enum/enumSwitch/a/a1/Example.java)
 >
 >> ### Values.
+>> * [Values of Enum.](src/main/java/com/trl/theoreticalKnowledge/_enum/values/a/a1/Example.java)
+>>
+>>> #### Constructors.
+>>
+>>> #### Methods.
+>>>> ##### Access Modifier.
+>>>
+>>>> ##### Abstract.
+>>>> * [Implementation abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/_abstract/a/a1/Example.java)
+>>>> * [Each and every "Enum Value", required to implement this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/_abstract/a/a2/Example.java)
+>>>> * [If "Enum Value", have implemented method, "Enum" required to have defined this abstract method, so that later this method could be called.](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/_abstract/a/a3/Example.java)
+>>>> * [Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/_abstract/a/a4/Example.java)
+>>>
+>>>> ##### Non-static.
+>>>> * [Implementation this method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/a/a1/Example.java)
+>>>> * [Is not mandatory implementing methods in every "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/a/a2/Example.java)
+>>>> * [If "Enum Value", have implemented method, "Enum" required to have defined this method, so that later this method could be called.](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/a/a3/Example.java)
+>>>> * [Is allowed implementing many methods in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/values/methods/a/a4/Example.java)
+>>>
+>>>> ##### Static.
+>>>
+>>>> ##### Final.
+>>
+>>> #### Variables.
+>>>
+>>>> #### Access Modifier.
+>>>
+>>>> #### Non-static.
+>>>
+>>>> #### Static
+>>>
+>>>> #### Final
 >
 >> ### Methods.
 >>> #### Pre-defined Methods.
@@ -46,18 +78,12 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Access Modifier.
 >>
 >>> #### Abstract
->>> * [Definition of an abstract method  in a "Enum". And implementation this abstract method in each "Enum Value".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a1/Example.java)
->>> * [Each and every "Enum Value", required to implement abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a2/Example.java)
->>> * [If "Enum Value", have defined abstract method, "Enum" required to have defined this abstract method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a/a3/Example.java)
->>> * [Is allowed implementation many abstract method in "Enum Values".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/abstractMethod/a4/Example.java)
 >>
 >>> #### Non-static.
->>> * [Definition of an method  in a "Enum". And implementation this method in each "Enum" value.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a1/Example.java)
->>> * [Is not mandatory implementing methods in every "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a2/Example.java)
->>> * [If "Enum" value, have defined method, "Enum" required to have defined this method.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a3/Example.java)
->>> * [Is allowed implementing many method in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/a/a4/Example.java)
 >>
 >>> #### Static
+>>> * [Is allowed definition many static methods in "Enum".](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/_static/a/a1/Example.java)
+>>> * [Is not allowed implementing static methods in "Enum" values.](src/main/java/com/trl/theoreticalKnowledge/_enum/methods/_static/b/b1/Example.java)
 >>
 >>> #### Final
 >
@@ -72,7 +98,9 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Final
 >
 >> ### Note to self.
->> * [1](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+>> * [1. Semicolon.](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
+>> * [2. Semicolon.](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b2/Example.java)
+>> * [Enum types cannot be instantiated.](src/main/java/com/trl/theoreticalKnowledge/_enum/c/c1/Example.java)
 
 
 
@@ -114,7 +142,7 @@ This project created for educational purposes, and this project may contain inva
 >>
 >>> ### Inheritance.
 >>
->>> ### Access Modifier of "Static Nested Class".
+>>> #### Access Modifier of "Static Nested Class".
 >>
 >>> #### Constructors.
 >>> 
@@ -170,7 +198,7 @@ This project created for educational purposes, and this project may contain inva
 >>
 >>> ### Inheritance.
 >>
->>> ### Access Modifier of "Inner Class".
+>>> #### Access Modifier of "Inner Class".
 >>
 >>> #### Constructors.
 >>> 
@@ -221,7 +249,7 @@ This project created for educational purposes, and this project may contain inva
 >>
 >>> ### Inheritance.
 >>
->>> ### Access Modifier of "Local Inner Class".
+>>> #### Access Modifier of "Local Inner Class".
 >>
 >>> #### Constructors.
 >>> 

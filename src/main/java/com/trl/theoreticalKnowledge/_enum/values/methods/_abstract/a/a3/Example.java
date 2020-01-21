@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge._enum.methods.abstractMethod.a.a3;
+package com.trl.theoreticalKnowledge._enum.values.methods._abstract.a.a3;
 
 public class Example {
     public static void main(String[] args) {
