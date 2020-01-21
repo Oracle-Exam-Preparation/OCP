@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge.nestedClass.innerClass.inicialization.a.a1;
+package com.trl.theoreticalKnowledge.nestedClass.innerClass.initialization.a.a1;
 
 public class Example {
 

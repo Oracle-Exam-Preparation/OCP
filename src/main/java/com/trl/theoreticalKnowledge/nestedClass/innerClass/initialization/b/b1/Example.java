@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge.nestedClass.innerClass.inicialization.b.b1;
+package com.trl.theoreticalKnowledge.nestedClass.innerClass.initialization.b.b1;
 
 import java.util.Objects;
 

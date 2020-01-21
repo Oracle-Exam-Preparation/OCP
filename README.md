@@ -7,6 +7,8 @@
 * [Nested Class](#nested-class)
 * [Methods from Object Class](#methods-from-object-class)
 * [Virtual Methods](#virtual-methods)
+* [Imports](#imports)
+* [Casting Values](#casting-values)
 * [Help](#help)
 * [License](#license)
 
@@ -119,6 +121,8 @@ This project created for educational purposes, and this project may contain inva
 
 
 # InstanceOf.
+* [Example of "InstanceOf".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/a/a1/Example.java)
+* [Example of "null instanceOf someValue".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/_null/a/a1/Example.java)
 
 
 
@@ -141,6 +145,10 @@ This project created for educational purposes, and this project may contain inva
 >>> * Exist four types of Static Nested Class: interface, abstract class, class, enum.
 >>
 >>> ### Inheritance.
+>>
+>>> #### Initialization of "Static Nested Class".
+>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/inicialization/a1/Example.java)
+>>> * [2.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/inicialization/b/b1/Example.java)
 >>
 >>> #### Access Modifier of "Static Nested Class".
 >>
@@ -198,7 +206,13 @@ This project created for educational purposes, and this project may contain inva
 >>
 >>> ### Inheritance.
 >>
+>>> #### Initialization of "Inner Class".
+>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/initialization/a/a1/Example.java)
+>>> * [2.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/initialization/c/c1/Example.java)
+>>
 >>> #### Access Modifier of "Inner Class".
+>>> * [If "Inner Class" have "access modifier" private, then this "Inner Class" may have methods with any "access modifier".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/accessModifierOfInnerClass/a/a1/Example.java)
+>>> * [If "Inner Class" have "access modifier" private, then this "Inner Class" may have variables with any "access modifier".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/accessModifierOfInnerClass/b/b1/Example.java)
 >>
 >>> #### Constructors.
 >>> 
@@ -214,7 +228,7 @@ This project created for educational purposes, and this project may contain inva
 >>>
 >>>> ##### Static.
 >>>> * [Static variables from top-level class can be used in the inner class.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/a/a1/Example.java)
->>>> * [Static variables is not allow use in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
+>>>> * [Static variables is not allowed define in "Inner Class".](src/main/java/com/trl/theoreticalKnowledge/nestedClass/innerClass/variables/static_variable/b/b1/Example.java)
 >>> 
 >>>> ##### Final.
 >>
@@ -344,6 +358,31 @@ This project created for educational purposes, and this project may contain inva
 
 
 ## Virtual Methods.
+
+
+
+
+
+
+
+
+
+
+## Imports.
+### Static Import.
+* [Example of correct definition of "Static Import".](src/main/java/com/trl/theoreticalKnowledge/_imports/_static/Example.java)
+
+
+
+
+
+
+
+
+
+
+## Casting Values.
+* [If casting operation is incorrect while be throw "Runtime Exception".](src/main/java/com/trl/theoreticalKnowledge/castingValues/a/a1/Example.java)
 
 
 
