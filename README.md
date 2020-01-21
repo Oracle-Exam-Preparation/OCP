@@ -26,6 +26,14 @@ This project created for educational purposes, and this project may contain inva
 
 > ## Enum.
 >
+>> ### Initialization.
+>> * [1.](src/main/java/com/trl/theoreticalKnowledge/_enum/initialization/a/a1/Example.java)
+>
+>> ### Semicolon.
+>> * [1.](src/main/java/com/trl/theoreticalKnowledge/_enum/semicolon/a/a1/Example.java)
+>> * [2.](src/main/java/com/trl/theoreticalKnowledge/_enum/semicolon/b/b2/Example.java)
+>> * [3.](src/main/java/com/trl/theoreticalKnowledge/_enum/semicolon/b/b1/Example.java)
+>
 >> ### Constructor.
 >>
 >>> #### Access Modifier.

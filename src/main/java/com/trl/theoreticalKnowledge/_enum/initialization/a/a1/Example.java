@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge._enum.c.c1;
+package com.trl.theoreticalKnowledge._enum.initialization.a.a1;
 
 public class Example {
      public static void main(String[] args) {

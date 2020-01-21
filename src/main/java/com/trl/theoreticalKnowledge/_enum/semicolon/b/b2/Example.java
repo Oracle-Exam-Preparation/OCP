@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge._enum.b.b2;
+package com.trl.theoreticalKnowledge._enum.semicolon.b.b2;
 
 public class Example {
 }
@@ -35,4 +35,23 @@ enum Color_6 {
     WHITE, BLACK, RED, YELLOW;                                              // Not Compilation ERROR !!! With Semicolon.
 
     public void someMethod () {}
+}
+
+//enum Color_7 {
+//    WHITE, BLACK, RED, YELLOW                                              // Compilation ERROR !!! Without Semicolon.
+
+//    public String someValue;
+//}
+
+enum Color_8 {
+    WHITE, BLACK, RED, YELLOW;                                              // Not Compilation ERROR !!! With Semicolon.
+
+    public String someValue;
+}
+
+enum Color_9 {
+}
+
+enum Color_10 {
+    ;
 }

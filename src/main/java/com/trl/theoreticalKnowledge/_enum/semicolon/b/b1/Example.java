@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge._enum.b.b1;
+package com.trl.theoreticalKnowledge._enum.semicolon.b.b1;
 
 public class Example {
 }
