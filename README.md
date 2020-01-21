@@ -10,6 +10,7 @@
 * [Imports](#imports)
 * [Casting Values](#casting-values)
 * [Overriding](#overriding)
+* [Inheritance](#inheritance)
 * [Help](#help)
 * [License](#license)
 
@@ -414,8 +415,8 @@ This project created for educational purposes, and this project may contain inva
 
 
 
-> ## Inheritance.
->> ### Variables
+## Inheritance.
+>> ### Variables.
 >> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
 
 
