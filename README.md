@@ -421,8 +421,21 @@ This project created for educational purposes, and this project may contain inva
 >> ### Interface.
 >>
 >>> #### Variables.
+>>> * [Only "public static final" variables are allowed define in the "Interface". All variables from "Interface" is "public static final".]()
+>>>
+>>>> ##### Access Modifier. 
+>>>> * [Only "public" variables are allowed define in the "Interface". All variables from "Interface" have "public access modifier".](src/main/java/com/trl/theoreticalKnowledge/inheritance/_interface/variables/accessModifier/a/a1/Example.java) 
+>>>
+>>>> ##### Static. 
+>>>> * [Only "static" variables are allowed define in the "Interface". All variables from "Interface" is "static".]()
+>>>
+>>>> ##### Final. 
+>>>> * [Only "final" variables are allowed define in the "Interface". All variables from "Interface" is "final".]()
 >>
 >>> #### Methods. In other words "Overriding".
+>>>
+>>>> ##### Access Modifiers.
+>>>> * [Only public methods can be defined in a interface.]()
 >>>
 >>>> ##### Abstract Methods.
 >>>
