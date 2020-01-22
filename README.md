@@ -9,8 +9,7 @@
 * [Virtual Methods](#virtual-methods)
 * [Imports](#imports)
 * [Casting Values](#casting-values)
-* [Overriding](#overriding)
-* [Class Inheritance](#class-inheritance)
+* [Java Inheritance](#java-inheritance)
 * [Help](#help)
 * [License](#license)
 
@@ -110,9 +109,6 @@ This project created for educational purposes, and this project may contain inva
 >>> #### Final
 >
 >> ### Note to self.
->> * [1. Semicolon.](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b1/Example.java)
->> * [2. Semicolon.](src/main/java/com/trl/theoreticalKnowledge/_enum/b/b2/Example.java)
->> * [Enum types cannot be instantiated.](src/main/java/com/trl/theoreticalKnowledge/_enum/c/c1/Example.java)
 
 
 
@@ -403,21 +399,53 @@ This project created for educational purposes, and this project may contain inva
 
 
 
-## Overriding.
-* [1.](src/main/java/com/trl/theoreticalKnowledge/override/a/a1/Example.java)
-
-
-
-
-
-
-
-
-
-
-> ## Class Inheritance.
->> ### Variables.
+> ## Java Inheritance.
+>
+>> ### Class.
+>>> #### Variables.
 >> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
+>>
+>>> #### Methods. In other words "Overriding".
+>>> * [Method Inheritance.](src/main/java/com/trl/theoreticalKnowledge/override/a/a1/Example.java)
+>>>
+>>>> ##### Access Modifiers.
+>>>
+>>>> ##### Abstract Methods.
+>>>
+>>>> ##### Final Methods.
+>>>
+>>>> ##### Non-static Methods.
+>>>
+>>>> ##### Static Methods.
+>
+>> ### Interface.
+>>
+>>> #### Variables.
+>>
+>>> #### Methods. In other words "Overriding".
+>>>
+>>>> ##### Abstract Methods.
+>>>
+>>>> ##### Default Methods.
+>>>
+>>>> ##### Static Methods.
+>
+>> ### Abstract Class.
+>>
+>>> #### Variables.
+>>
+>>> #### Methods. In other words "Overriding".
+>>>
+>>>> ##### Access Modifiers.
+>>>
+>>>> ##### Abstract Methods.
+>>>
+>>>> ##### Final Methods.
+>>>
+>>>> ##### Non-static Methods.
+>>>
+>>>> ##### Static Methods.
+>
 
 
 
