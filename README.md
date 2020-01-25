@@ -10,6 +10,8 @@
 * [Imports](#imports)
 * [Casting Values](#casting-values)
 * [Java Inheritance](#java-inheritance)
+* [Functional Interface](#functional-interface)
+* [Lambda Expression](#lambda-expression)
 * [Help](#help)
 * [License](#license)
 
@@ -402,6 +404,9 @@ This project created for educational purposes, and this project may contain inva
 > ## Java Inheritance.
 >
 >> ### Class.
+>> * ["Class" can only be "extend" from one "class" or one "abstract class".]()
+>> * ["Class" can be "implement" may "interfaces".]()
+>>
 >>> #### Variables.
 >> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
 >>
@@ -419,8 +424,16 @@ This project created for educational purposes, and this project may contain inva
 >>>> ##### Static Methods.
 >
 >> ### Interface.
+>> * ["Interface" can be "extend" from many others "interfaces".](src/main/java/com/trl/theoreticalKnowledge/inheritance/_interface/b/b1/Example.java)
+>> * ["Interface" cannot be "extend" from "class" or "abstract class".](src/main/java/com/trl/theoreticalKnowledge/inheritance/_interface/b/b2/Example.java)
+>> * ["Marker Interface" - this is an "interface" that has no methods.]()
+>> * [Interfaces cannot extend classes, nor can classes extend interfaces.]()
+>> * [Interfaces may also not be marked final or instantiated directly.]()
+>> * [ There are additional rules for default methods, such as Java failing to compile if a class or interface inherits 
+>>     two default methods with the same signature and doesn’t provide its own implementation.]()
 >>
 >>> #### Variables.
+>>> * [The compiler automatically adds "public static final" to all interface variables, if the developer does not provide them.]()
 >>> * [Only "public static final" variables are allowed define in the "Interface". All variables from "Interface" is "public static final".]()
 >>>
 >>>> ##### Access Modifier. 
@@ -433,6 +446,7 @@ This project created for educational purposes, and this project may contain inva
 >>>> * [Only "final" variables are allowed define in the "Interface". All variables from "Interface" is "final".]()
 >>
 >>> #### Methods. In other words "Overriding".
+>>> * [The compiler automatically adds "public abstract" to all non‐static and non‐default methods, if the developer does not provide them.]()
 >>>
 >>>> ##### Access Modifiers.
 >>>> * [Only public methods can be defined in a interface.]()
@@ -444,6 +458,8 @@ This project created for educational purposes, and this project may contain inva
 >>>> ##### Static Methods.
 >
 >> ### Abstract Class.
+>> * ["Abstract Class" can only be "extend" from one "class" or one "abstract class".]()
+>> * ["Abstract Class" can be "implement" many "interfaces".]()
 >>
 >>> #### Variables.
 >>
@@ -459,6 +475,44 @@ This project created for educational purposes, and this project may contain inva
 >>>
 >>>> ##### Static Methods.
 >
+
+
+
+
+
+
+
+
+
+
+### Functional Interface.
+* ["Functional Interface" as an "Interface" that contains a single "Abstract Method". Bat may have defined "Default Method" or 
+   "Static Method". Or may have defined both methods at the same time.](src/main/java/com/trl/theoreticalKnowledge/functionalInterface/a/a1/Example.java)
+
+
+
+
+
+
+
+
+
+
+> ### Lambda Expression.
+>
+>> #### Parameters of Lambda.
+>> * [The parentheses can be omitted in a lambda expression if there is exactly one input parameter and the type is not 
+>>    explicitly stated in the expression. This means that expressions that have zero or more than one input parameter will 
+>>    still require parentheses. ]()
+>> * [Pass one parameter to "Lambda Expression".](src/main/java/com/trl/theoreticalKnowledge/lambda/parameters/a/a1/Example.java)
+>> * [Pass two or many parameters to "Lambda Expression".](src/main/java/com/trl/theoreticalKnowledge/lambda/parameters/a/a2/Example.java)
+>
+>> #### Body of Lambda.
+>> * [Semicolon.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/semicolon/a/a1/Example.java)
+>> * [Return Value.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/returnValue/a/a1/Example.java)
+>> * [Since Java doesn’t allow us to re‐declare a local variable.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/a/a1/Example.java)
+>
+
 
 
 
