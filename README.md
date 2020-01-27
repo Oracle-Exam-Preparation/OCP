@@ -146,15 +146,15 @@ This project created for educational purposes, and this project may contain inva
 
 
 > ## Nested Class.
-> * Exist two types of classes: top-level class, Nested Class.
-> * Nested Class divided into two types: "Static Nested Class" and "Inner Class".
-> * Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class".
-> * "Nested Class" may have "access modifier": private, default, protected, public.
+> * Exist two types of classes: top-level class, Nested Class. <br/>
+> * Nested Class divided into two types: "Static Nested Class" and "Inner Class". <br/>
+> * Sywchestvyet "Anonymous class". "Anonymous class" siempre is "Nested Class" no potom stanovitca libo "Static Nested Class" libo "Inner Class". <br/>
+> * "Nested Class" may have "access modifier": private, default, protected, public. <br/>
 >
 >> ### Static Nested Class.
 >>
 >>> #### Type of Static Nested Class
->>> * Exist four types of Static Nested Class: interface, abstract class, class, enum.
+>>> * Exist four types of Static Nested Class: interface, abstract class, class, enum. <br/>
 >>
 >>> ### Inheritance.
 >>
@@ -173,10 +173,10 @@ This project created for educational purposes, and this project may contain inva
 >>>> ##### Access Modifier.
 >>> 
 >>>> ##### Non-static.
->>>> * Non-static variables from "top-level class" cannot be used in the "static nested class".
+>>>> * Non-static variables from "top-level class" cannot be used in the "static nested class". <br/>
 >>>
 >>>> ##### Static.
->>>> * Static variables from "top-level class" can be used in the "static nested class".
+>>>> * Static variables from "top-level class" can be used in the "static nested class". <br/>
 >>> 
 >>>> ##### Final.
 >>
@@ -187,10 +187,10 @@ This project created for educational purposes, and this project may contain inva
 >>>> ##### Abstract.
 >>>
 >>>> ##### Non-static.
->>>> * Not allowed definition "static nested class" in the method body.
+>>>> * Not allowed definition "static nested class" in the method body. <br/>
 >>>
 >>>> ##### Static.
->>>> * Not allowed definition "static nested class" in the static method body.
+>>>> * Not allowed definition "static nested class" in the static method body. <br/>
 >>> 
 >>>> ##### Final.
 >>
@@ -202,19 +202,19 @@ This project created for educational purposes, and this project may contain inva
 >> * [The definition for the "Local Static Nested Class" is not allowed.](src/main/java/com/trl/theoreticalKnowledge/nestedClass/staticNestedClass/localStaticNestedClass/a/a1/Example.java)
 >
 >> ### Inner Class.
->> * The "Inner Class" has a subtype that name is "Local Inner Class".
->> * Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class".
->> * Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class".
->> * Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class".
->> * Raznue "Inner Class" mohut ssulatsa na odin i totze "top-level class".
+>> * The "Inner Class" has a subtype that name is "Local Inner Class". <br/>
+>> * Ekzempliar "Inner Class" vsehda dolzen sodirzat ssulky na "top-level class". <br/>
+>> * Esli sozdaietsa "top-level class" eto ne znachit chto proisxodit sozdanie "Inner Class". <br/>
+>> * Esli sozdaietsa "Inner Class" to obiazan sywchestvovat ekzempliar "top-level class". I "Inner Class" bydet ssulatsa na "top-level class". <br/>
+>> * Raznue "Inner Class" mohut ssulatsa na odin i totze "top-level class". <br/>
 >> * "Inner Class" mozet bit obiavlion v methode. No znachenie kotoroe vozvrawchaet ethot method ne mozet bit tipos etoho "Inner Class". 
->>   "Inner Class" kotorui obiavlaetsa v nytri methoda, ne viden za figurnumi scobcami etoho methoda. 
+>>   "Inner Class" kotorui obiavlaetsa v nytri methoda, ne viden za figurnumi scobcami etoho methoda.
 >>   Znachenie cotoroe vozvrawchaet method mozet bit "Object type" i takim sposobom mozno vozvrawcaht "Inner Class" kororui opredelon v methode.
 >> * java memory leak. "Inner Class" mozet sprovocurovat "java memory leak". Do toho vremeni kohda ziv "Inner Class" bydet ziv "top-level calss",
->>   "Garbage Collector" ne smozet ydalit "top-level class".
+>>   "Garbage Collector" ne smozet ydalit "top-level class". <br/>
 >>
 >>> #### Type of Inner Class
->>> * Exist four types of Inner Class: interface, abstract class, class, enum.
+>>> * Exist four types of Inner Class: interface, abstract class, class, enum. <br/>
 >>
 >>> ### Inheritance.
 >>
@@ -395,7 +395,7 @@ This project created for educational purposes, and this project may contain inva
 
 ## Casting Values.
 * [If casting operation is incorrect while be throw "Runtime Exception".](src/main/java/com/trl/theoreticalKnowledge/castingValues/a/a1/Example.java)
-* Here are some basic rules to keep in mind when casting variables:
+* Here are some basic rules to keep in mind when casting variables: <br/>
     [1. Casting an object from a subclass to a superclass doesn’t require an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/b/b1/Example.java)
     [2. Casting an object from a superclass to a subclass requires an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/c/c1/Example.java)
     [3. The compiler will not allow casts to unrelated types.](src/main/java/com/trl/theoreticalKnowledge/castingValues/d/d1/Example.java)
@@ -500,10 +500,10 @@ This project created for educational purposes, and this project may contain inva
 * The dictionary definition of polymorphism refers to a principle in biology in which an organism or species can have 
   many different forms or stages. This principle can also be applied to object-oriented programming and languages like 
   the Java language. Subclasses of a class can define their own unique behaviors and yet share some of the same 
-  functionality of the parent class.
+  functionality of the parent class. <br/>
 * Polymorphism is the ability of a single interface to support multiple underlying forms. In Java, this allows multiple 
   types of objects to be passed to a single method or class.  In Java, this allows multiple types of objects to be 
-  passed to a single method or class. 
+  passed to a single method or class. <br/>
 
 
 
@@ -514,12 +514,12 @@ This project created for educational purposes, and this project may contain inva
 
 
 ## Referenceable Objects and References.
-* We can summarize this principle with the following two rules:
-   1. The type of the object determines which properties exist within the object in memory.
-   2. The type of the reference to the object determines which methods and variables are accessible to the Java program.
-* An object is an instance of a class created from it using the new keyword.
+* We can summarize this principle with the following two rules: <br/>
+   1. The type of the object determines which properties exist within the object in memory. <br/>
+   2. The type of the reference to the object determines which methods and variables are accessible to the Java program. <br/>
+* An object is an instance of a class created from it using the new keyword. <br/>
 * Classes, interfaces, arrays, enumerations and, annotations are the in Java are reference types in Java. Reference 
-  variables hold the objects/values of reference types in Java
+  variables hold the objects/values of reference types in Java. <br/>
 
 
 
@@ -537,19 +537,19 @@ This project created for educational purposes, and this project may contain inva
 >
 >> ### Creating JavaBeans.
 >> * [JavaBeans Spec URL](https://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html)
->> * JavaBean naming conventions:
->>       1. Properties are private.
->>       2. A public no-argument constructor.
->>       3. Getter for non‐boolean properties begins with "get".
->>       4. Getters for boolean properties must begin with "is".
->>       5. Getters for Boolean properties must begin with "get".
->>       6. Setter methods begin with "set".
+>> * JavaBean naming conventions: <br/>
+>>       1. Properties are private. <br/>
+>>       2. A public no-argument constructor. <br/>
+>>       3. Getter for non‐boolean properties begins with "get". <br/>
+>>       4. Getters for boolean properties must begin with "is". <br/>
+>>       5. Getters for Boolean properties must begin with "get". <br/>
+>>       6. Setter methods begin with "set". <br/>
 >>       7. The method name must have a prefix of "set", "get", "is" followed by the first letter of the property in 
->>          uppercase and followed by the rest of the property name.
->>       8. Implements Serializable.
+>>          uppercase and followed by the rest of the property name. <br/>
+>>       8. Implements Serializable. <br/>
 >>     
 >> * Although boolean values use "is" to start their getter method, the same does not apply to instances of the 
->>   wrapper Boolean class, which use "get".
+>>   wrapper Boolean class, which use "get". <br/>
 >> * [Example of Java Bean.](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/creacionJavaBean/a/a1/Example.java)
 >
 >> ### Is‐a Relationship.
