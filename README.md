@@ -10,8 +10,12 @@
 * [Imports](#imports)
 * [Casting Values](#casting-values)
 * [Java Inheritance](#java-inheritance)
+* [Polymorphism](#polymorphism)
+* [Referenceable Objects and References](#referenceable-objects-and-references)
+* [Design Principles](#design-principles)
 * [Functional Interface](#functional-interface)
 * [Lambda Expression](#lambda-expression)
+* [Method Reference](#method-reference)
 * [Help](#help)
 * [License](#license)
 
@@ -391,6 +395,14 @@ This project created for educational purposes, and this project may contain inva
 
 ## Casting Values.
 * [If casting operation is incorrect while be throw "Runtime Exception".](src/main/java/com/trl/theoreticalKnowledge/castingValues/a/a1/Example.java)
+* Here are some basic rules to keep in mind when casting variables:
+    [1. Casting an object from a subclass to a superclass doesn’t require an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/b/b1/Example.java)
+    [2. Casting an object from a superclass to a subclass requires an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/c/c1/Example.java)
+    [3. The compiler will not allow casts to unrelated types.](src/main/java/com/trl/theoreticalKnowledge/castingValues/d/d1/Example.java)
+    [4. Even when the code compiles without issue, an exception may be thrown at runtime if
+        the object being cast is not actually an instance of that class.](src/main/java/com/trl/theoreticalKnowledge/castingValues/e/e1/Example.java)
+### Explicit Cast.
+### Without an Explicit Cast.
 
 
 
@@ -484,8 +496,77 @@ This project created for educational purposes, and this project may contain inva
 
 
 
+## Polymorphism.
+* The dictionary definition of polymorphism refers to a principle in biology in which an organism or species can have 
+  many different forms or stages. This principle can also be applied to object-oriented programming and languages like 
+  the Java language. Subclasses of a class can define their own unique behaviors and yet share some of the same 
+  functionality of the parent class.
+* Polymorphism is the ability of a single interface to support multiple underlying forms. In Java, this allows multiple 
+  types of objects to be passed to a single method or class.  In Java, this allows multiple types of objects to be 
+  passed to a single method or class. 
 
-### Functional Interface.
+
+
+
+
+
+
+
+
+## Referenceable Objects and References.
+* We can summarize this principle with the following two rules:
+   1. The type of the object determines which properties exist within the object in memory.
+   2. The type of the reference to the object determines which methods and variables are accessible to the Java program.
+* An object is an instance of a class created from it using the new keyword.
+* Classes, interfaces, arrays, enumerations and, annotations are the in Java are reference types in Java. Reference 
+  variables hold the objects/values of reference types in Java
+
+
+
+
+
+
+
+
+
+
+> ## Design Principles.
+>> ### Encapsulating Data.
+>> * [Incorrect definition of "Encapsulation Data".](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/encapsulationData/a/a1/Example.java)
+>> * [Correct definition of "Encapsulation Data".](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/encapsulationData/b/b1/Example.java)
+>
+>> ### Creating JavaBeans.
+>> * [JavaBeans Spec URL](https://www.oracle.com/technetwork/java/javase/documentation/spec-136004.html)
+>> * JavaBean naming conventions:
+>>       1. Properties are private.
+>>       2. A public no-argument constructor.
+>>       3. Getter for non‐boolean properties begins with "get".
+>>       4. Getters for boolean properties must begin with "is".
+>>       5. Getters for Boolean properties must begin with "get".
+>>       6. Setter methods begin with "set".
+>>       7. The method name must have a prefix of "set", "get", "is" followed by the first letter of the property in 
+>>          uppercase and followed by the rest of the property name.
+>>       8. Implements Serializable.
+>>     
+>> * Although boolean values use "is" to start their getter method, the same does not apply to instances of the 
+>>   wrapper Boolean class, which use "get".
+>> * [Example of Java Bean.](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/creacionJavaBean/a/a1/Example.java)
+>
+>> ### Is‐a Relationship.
+>
+>> ### Has‐a Relationship.
+>
+
+
+
+
+
+
+
+
+
+
+## Functional Interface.
 * ["Functional Interface" as an "Interface" that contains a single "Abstract Method". Bat may have defined "Default Method" or 
    "Static Method". Or may have defined both methods at the same time.](src/main/java/com/trl/theoreticalKnowledge/functionalInterface/a/a1/Example.java)
 
@@ -498,20 +579,31 @@ This project created for educational purposes, and this project may contain inva
 
 
 
-> ### Lambda Expression.
+> ## Lambda Expression.
 >
->> #### Parameters of Lambda.
+>> ### Parameters of Lambda.
 >> * [The parentheses can be omitted in a lambda expression if there is exactly one input parameter and the type is not 
 >>    explicitly stated in the expression. This means that expressions that have zero or more than one input parameter will 
 >>    still require parentheses. ]()
 >> * [Pass one parameter to "Lambda Expression".](src/main/java/com/trl/theoreticalKnowledge/lambda/parameters/a/a1/Example.java)
 >> * [Pass two or many parameters to "Lambda Expression".](src/main/java/com/trl/theoreticalKnowledge/lambda/parameters/a/a2/Example.java)
 >
->> #### Body of Lambda.
+>> ### Body of Lambda.
 >> * [Semicolon.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/semicolon/a/a1/Example.java)
 >> * [Return Value.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/returnValue/a/a1/Example.java)
 >> * [Since Java doesn’t allow us to re‐declare a local variable.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/a/a1/Example.java)
 >
+
+
+
+
+
+
+
+
+
+
+## Method Reference.
 
 
 
