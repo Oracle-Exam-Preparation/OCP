@@ -407,10 +407,10 @@
 ## Casting Values.
 * [If casting operation is incorrect while be throw "Runtime Exception".](src/main/java/com/trl/theoreticalKnowledge/castingValues/a/a1/Example.java)
 * Here are some basic rules to keep in mind when casting variables: <br/>
-    [1. Casting an object from a subclass to a superclass doesn’t require an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/b/b1/Example.java)
-    [2. Casting an object from a superclass to a subclass requires an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/c/c1/Example.java)
-    [3. The compiler will not allow casts to unrelated types.](src/main/java/com/trl/theoreticalKnowledge/castingValues/d/d1/Example.java)
-    [4. Even when the code compiles without issue, an exception may be thrown at runtime if
+    * [Casting an object from a subclass to a superclass doesn’t require an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/b/b1/Example.java) <br/>
+    * [Casting an object from a superclass to a subclass requires an explicit cast.](src/main/java/com/trl/theoreticalKnowledge/castingValues/c/c1/Example.java) <br/>
+    * [The compiler will not allow casts to unrelated types.](src/main/java/com/trl/theoreticalKnowledge/castingValues/d/d1/Example.java) <br/>
+    * [Even when the code compiles without issue, an exception may be thrown at runtime if
         the object being cast is not actually an instance of that class.](src/main/java/com/trl/theoreticalKnowledge/castingValues/e/e1/Example.java)
 ### Explicit Cast.
 ### Without an Explicit Cast.
@@ -516,10 +516,10 @@
   types of objects to be passed to a single method or class.  In Java, this allows multiple types of objects to be 
   passed to a single method or class. <br/>
 * Types of Polymorphism: <br/>
-    1. Inheritance. <br/>
-    2. Generics. <br/>
-    3. <br/>
-    4. <br/>
+    * Inheritance. <br/>
+    * Generics. <br/>
+    * <br/>
+    * <br/>
 
 
 
@@ -532,8 +532,8 @@
 
 ## Referenceable Objects and References.
 * We can summarize this principle with the following two rules: <br/>
-   1. The type of the object determines which properties exist within the object in memory. <br/>
-   2. The type of the reference to the object determines which methods and variables are accessible to the Java program. <br/>
+   * The type of the object determines which properties exist within the object in memory. <br/>
+   * The type of the reference to the object determines which methods and variables are accessible to the Java program. <br/>
 * An object is an instance of a class created from it using the new keyword. <br/>
 * Classes, interfaces, arrays, enumerations and, annotations are the in Java are reference types in Java. Reference 
   variables hold the objects/values of reference types in Java. <br/>
