@@ -430,9 +430,14 @@
 >> ### Class.
 >> * ["Class" can only be "extend" from one "class" or one "abstract class".]()
 >> * ["Class" can be "implement" may "interfaces".]()
+>> * [If "Class is final", other class cannot be inherited from it.](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/_final/a/a1/Example.java)
+>>
+>>> #### Constructor.
+>>>> ##### Access Modifier.
+>>>> * [If class have only defined "private constructor", other class cannot be inherited from it.](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/constructor/accessModifier/a/a1/Example.java)
 >>
 >>> #### Variables.
->> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
+>>> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
 >>
 >>> #### Methods. In other words "Overriding".
 >>> * [Method Inheritance.](src/main/java/com/trl/theoreticalKnowledge/override/a/a1/Example.java)
@@ -632,13 +637,31 @@
 
 
 
-## Generics.
-* [Oracle Java Documentation. The Java Generic Tutorials.](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
-* Covariant, Contravariance, Invariance. <br/>
-* [Lower Bounded Wildcards. Documentation.](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html)
-* [Lower Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/a/a1/Example.java)
-* [Upper Bounded Wildcards. Documentation.](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html)
-* [Upper Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/a/a1/Example.java)
+> ## Generics.
+> * [Oracle Java Documentation. The Java Generic Tutorials.](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
+> * [Covariant, Contravariance, Invariance.]()
+> * [Oracle Java Documentation. Lower Bounded Wildcards.](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html)
+> * [Lower Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/a/a1/Example.java)
+> * [Oracle Java Documentation. Upper Bounded Wildcards.](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html)
+> * [Upper Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/a/a1/Example.java)
+>
+>> ### Generic Classes.
+>
+>> ### Generic Nested Classes.
+>
+>> ### Generic Abstract Class.
+>
+>> ### Generic Interface.
+>
+>> ### Generic Function Interface.
+>
+>> ### Generic Type Parameters.
+>
+>> ### Generic Constructor.
+>
+>> ### Generic Methods.
+>
+>
 
 
 
