@@ -1,6 +1,7 @@
 # OCP Exam Preparation.
 
 ## Contents at a Glance.
+* [Oracle Documentations](#oracle-documentations)
 * [About](#about)
 * [Enum](#enum)
 * [InstanceOf](#instanceof)
@@ -16,11 +17,21 @@
 * [Functional Interface](#functional-interface)
 * [Lambda Expression](#lambda-expression)
 * [Method Reference](#method-reference)
+* [Generics](#generics)
+* [Collections](#collections)
 * [Help](#help)
 * [License](#license)
 
+## Oracle Documentations.
+* [Exam Java SE 8 Programmer II](https://education.oracle.com/java-se-8-programmer-ii/pexam_1Z0-809)
+* [Java® Language Specification. Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+
+
+
+
 ## About.
-This project created for educational purposes, and this project may contain invalid or false information always check the information you are learning. <br/>
+* This project created for educational purposes, and this project may contain invalid or false "Information or Cod Examples". <br/> 
+* Always check the "Information or Cod Examples" you are learning. <br/>
 
 
 
@@ -504,6 +515,12 @@ This project created for educational purposes, and this project may contain inva
 * Polymorphism is the ability of a single interface to support multiple underlying forms. In Java, this allows multiple 
   types of objects to be passed to a single method or class.  In Java, this allows multiple types of objects to be 
   passed to a single method or class. <br/>
+* Types of Polymorphism: <br/>
+    1. Inheritance. <br/>
+    2. Generics. <br/>
+    3. <br/>
+    4. <br/>
+
 
 
 
@@ -604,6 +621,33 @@ This project created for educational purposes, and this project may contain inva
 
 
 ## Method Reference.
+
+
+
+
+
+
+
+
+
+
+## Generics.
+* Covariant, Contravariance, Invariance. <br/>
+* [Lower Bounded Wildcards. Documentation.](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html)
+* [Lower Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/a/a1/Example.java)
+* [Upper Bounded Wildcards. Documentation.](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html)
+* [Upper Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/a/a1/Example.java)
+
+
+
+
+
+
+
+
+
+
+## Collections.
 
 
 
