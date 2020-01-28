@@ -25,6 +25,7 @@
 ## Oracle Documentations.
 * [Exam Java SE 8 Programmer II](https://education.oracle.com/java-se-8-programmer-ii/pexam_1Z0-809)
 * [Java® Language Specification. Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
+* [Java Platform, Standard Edition (Java SE) 8](https://docs.oracle.com/javase/8/)
 
 
 
@@ -632,6 +633,7 @@
 
 
 ## Generics.
+* [Oracle Java Documentation. The Java Generic Tutorials.](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 * Covariant, Contravariance, Invariance. <br/>
 * [Lower Bounded Wildcards. Documentation.](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html)
 * [Lower Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/a/a1/Example.java)
