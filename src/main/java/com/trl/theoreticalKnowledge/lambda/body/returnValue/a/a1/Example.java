@@ -12,6 +12,24 @@ public class Example {
                 )
         );
 
+        out.println(
+                testLambda_4(
+                        () -> ""
+                )
+        );
+
+//        testLambda_5(
+//                () -> ""                                                                    // Compilation ERROR !!! Lambda is not have "return value".
+//        );
+
+//        testLambda_5(
+//                () ->                                                                      // Compilation ERROR !!! Incorrect Definition of Lambda.
+//        );
+
+        testLambda_5(
+                () -> out.println("Hello !!!")                                               // If lambda is not have "return value". Body of lambda should have "terminal operation".
+        );
+
         // If the "Functional Interface" method have "return value", then this "Lambda Body" must have "return value".
         out.println(
                 testLambda_1(
@@ -72,30 +90,48 @@ public class Example {
 //        );
     }
 
-    public static String testLambda_1(String str, SomeFunctionlInterface_1 in) {
+    public static String testLambda_1(String str, SomeFunctionalInterface_1 in) {
         return in.someMethod(str);
     }
 
-    public static String testLambda_2(String one, String two, SomeFunctionlInterface_2 in) {
+    public static String testLambda_2(String one, String two, SomeFunctionalInterface_2 in) {
         return in.someMethod(one, two);
     }
 
-    public static void testLambda_3(String one, String two, SomeFunctionlInterface_3 in) {
+    public static void testLambda_3(String one, String two, SomeFunctionalInterface_3 in) {
         out.println(one + "" + two);
+    }
+
+    public static String testLambda_4 (SomeFunctionalInterface_4 functionalInterface){
+        return functionalInterface.someMethod();
+    }
+
+    public static void testLambda_5 (SomeFunctionalInterface_5 functionalInterface){
+        functionalInterface.someMethod();
     }
 }
 
 @FunctionalInterface
-interface SomeFunctionlInterface_1 {
+interface SomeFunctionalInterface_1 {
     String someMethod(String str);
 }
 
 @FunctionalInterface
-interface SomeFunctionlInterface_2 {
+interface SomeFunctionalInterface_2 {
     String someMethod(String one, String two);
 }
 
 @FunctionalInterface
-interface SomeFunctionlInterface_3 {
+interface SomeFunctionalInterface_3 {
     void someMethod(String one, String two);
+}
+
+@FunctionalInterface
+interface SomeFunctionalInterface_4 {
+    String someMethod();
+}
+
+@FunctionalInterface
+interface SomeFunctionalInterface_5 {
+    void someMethod();
 }

@@ -14,6 +14,7 @@
 * [Polymorphism](#polymorphism)
 * [Referenceable Objects and References](#referenceable-objects-and-references)
 * [Design Principles](#design-principles)
+* [Design Pattern](#design-pattern)
 * [Functional Interface](#functional-interface)
 * [Lambda Expression](#lambda-expression)
 * [Method Reference](#method-reference)
@@ -144,7 +145,7 @@
 
 
 
-# InstanceOf.
+## InstanceOf.
 * [Example of "InstanceOf".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/a/a1/Example.java)
 * [Example of "null instanceOf someValue".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/_null/a/a1/Example.java)
 
@@ -430,11 +431,12 @@
 >> ### Class.
 >> * ["Class" can only be "extend" from one "class" or one "abstract class".]()
 >> * ["Class" can be "implement" may "interfaces".]()
->> * [If "Class is final", other class cannot be inherited from it.](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/_final/a/a1/Example.java)
+>> * [If the "Class is final", other class cannot be inherited from it.](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/_final/a/a1/Example.java)
 >>
 >>> #### Constructor.
 >>>> ##### Access Modifier.
->>>> * [If class have only defined "private constructor", other class cannot be inherited from it.](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/constructor/accessModifier/a/a1/Example.java)
+>>>> * [If class have only defined "private constructor", other class cannot be inherited from it. By marking the 
+>>>>    constructors private, we have implicitly marked the class final. ](src/main/java/com/trl/theoreticalKnowledge/inheritance/_class/constructor/accessModifier/a/a1/Example.java)
 >>
 >>> #### Variables.
 >>> * [Class variables are not inherited.](src/main/java/com/trl/theoreticalKnowledge/inheritance/variable/a/a1/Example.java)
@@ -554,6 +556,13 @@
 
 
 > ## Design Principles.
+> * A design principle is an established idea or best practice that facilitates the software design process. <br/>
+> * In general, following good design principles leads to:
+>      * More logical code
+>      * Code that is easier to understand
+>      * Classes that are easier to reuse in other relationships and applications
+>      * Code that is easier to maintain and that adapts more readily to changes in the application requirements 
+>
 >> ### Encapsulating Data.
 >> * [Incorrect definition of "Encapsulation Data".](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/encapsulationData/a/a1/Example.java)
 >> * [Correct definition of "Encapsulation Data".](src/main/java/com/trl/theoreticalKnowledge/designPrinciples/encapsulationData/b/b1/Example.java)
@@ -578,7 +587,52 @@
 >> ### Is‐a Relationship.
 >
 >> ### Has‐a Relationship.
+>>
+>>> #### Composing Objects.
+>>>
+>>>> ##### Delegation.
 >
+
+
+
+
+
+
+
+
+
+
+> ## Design Pattern.
+> * A design pattern is an established general solution to a commonly occurring software development problem. 
+>   The purpose of a design pattern is to leverage the wealth of knowledge of developers who have come before you in 
+>   order to solve old problems that you may encounter easily. It also gives developers a common vocabulary in which 
+>   they can discuss common problems and solutions.
+>
+>> ### Singleton Pattern. 
+>>
+>>> #### Lazy Initialization.
+>>
+>>> #### Thread Safe.
+>>
+>>> #### Singleton and Class Loader.
+>
+>>  ### Immutable Objects. 
+>>  1. Use a constructor to set all properties of the object. <br/>
+>>  2. Mark all of the instance variables private and final. <br/>
+>>  3. Don’t define any setter methods. <br/>
+>>  4. Don’t allow referenced mutable objects to be modified or accessed directly. <br/>
+>>  5. Prevent methods from being overridden. <br/>
+>
+>> ###  Builder Pattern.
+>
+>>  ### Factory Pattern.
+>>
+>>>  #### Factory Method Pattern.
+>
+
+
+
+
 
 
 
@@ -614,7 +668,7 @@
 >> ### Body of Lambda.
 >> * [Semicolon.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/semicolon/a/a1/Example.java)
 >> * [Return Value.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/returnValue/a/a1/Example.java)
->> * [Since Java doesn’t allow us to re‐declare a local variable.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/a/a1/Example.java)
+>> * [Since Java doesn’t allow us to re-declare a local variable.](src/main/java/com/trl/theoreticalKnowledge/lambda/body/a/a1/Example.java)
 >
 
 

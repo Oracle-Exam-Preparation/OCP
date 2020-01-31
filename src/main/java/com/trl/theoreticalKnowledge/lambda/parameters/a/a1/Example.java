@@ -27,6 +27,13 @@ public class Example {
                         str -> str.concat(" World !!!")                                      // Single‐line lambda body.
                 )
         );
+
+        out.println(
+                testLambda(
+                        "Hello",
+                        (str) -> str.concat(" World !!!")                                      // Single‐line lambda body.
+                )
+        );
     }
 
     public static String testLambda(String str, SomeFunctionlInterface_1 in) {
