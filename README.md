@@ -20,6 +20,7 @@
 * [Method Reference](#method-reference)
 * [Generics](#generics)
 * [Collections](#collections)
+* [Stream API](#stream-api)
 * [Help](#help)
 * [License](#license)
 
@@ -730,21 +731,43 @@
 >
 >> ### Big O, Big Theta, Big Omega.
 >>
->>> #### Big O.
+>>> #### Big-O.
 >> 
->>> #### Big theta.
+>>> #### Big-Theta.
 >>
->>> #### Big Omega.
+>>> #### Big-Omega.
 >
 >> ### Collections Utils Class.
+>>> #### Methods.
+>>> * [sort()](src/main/java/com/trl/theoreticalKnowledge/collections/collectionsMethods/sort/a/a1/Example.java) 
+>>> 
+>>> * [binarySearch()](src/main/java/com/trl/theoreticalKnowledge/collections/collectionsMethods/binarySearch/a/a1/Example.java)
+>>> 
 >
 >> ### Iterable.
 >
 >> ### List.
+>>
+>>> #### ArrayList.
+>>>
+>>>> ##### Constructor. 
+>>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>
+>>>> ##### Methods. 
+>>>> * [add()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
+>>>> * [set()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java) 
+>>>> * [get()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java) 
+>>>> * [remove()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
+>>>
+>>>> ##### Initialization. 
+>>
+>>> #### LinkedList.
 >
->> ### Hash.
+>> ### Set.
 >
->> ### Tree. Red–black tree.
+>> ### Map.
+>
+>> ### Queue.
 >>
 >> ### Heap.
 >>
@@ -759,11 +782,42 @@
 >
 >> ### Concurrent Collections.
 >
->> ### Books.
->> * [Thomas H. Cormen, Charles E. Leiserson, Ronald Rivest, Clifford Stein "Introduction to Algorithms".](https://www.google.com/search?newwindow=1&safe=active&sxsrf=ACYBGNS_zJ_TouRxxt39wOdguBt94mesxQ:1580475109606&q=Introduction+to+Algorithms&stick=H4sIAAAAAAAAAONgFuLSz9U3ME4vKa5KV-IEsS3Ty8wMtHic8vOzgzNTUssTK4sXsUp55pUU5aeUJpdk5ucplOQrOOak5xdllmTkFu9gZQQAwnsklEcAAAA&sa=X&ved=2ahUKEwjv2u_L8K3nAhVbi1wKHaLpDzcQxA0wenoECGwQBQ#)
->> * [Niklaus Wirth "Algorithms + Data Structures = Programs".](https://www.google.com/search?newwindow=1&safe=active&biw=2560&bih=1309&sxsrf=ACYBGNRhsJLWwSQhMfR2OUGuAbqJJTCUow%3A1580475200481&ei=QCM0Xqz8HMOQ8gLk7b_QBg&q=algorithms++data+structures++programs+niklaus+wirth&oq=algorithms++data+structures++programs+niklaus+wirth&gs_l=psy-ab.3..0j0i30l2j0i8i30j0i333.1886.8378..8873...0.0..0.108.805.3j5......0....1..gws-wiz.......35i39j0i22i30.7WlmwwHWtXI&ved=0ahUKEwisnJr38K3nAhVDiFwKHeT2D2oQ4dUDCAs&uact=5) 
->> 
->
+
+
+
+
+
+
+
+
+
+
+## Array.
+
+
+
+
+
+
+
+
+
+
+## Arrays.
+* [asList()](src/main/java/com/trl/theoreticalKnowledge/arrays/asList/a/a1/Example.java)
+* [sort()](src/main/java/com/trl/theoreticalKnowledge/arrays/sort/a/a1/Example.java)
+* [parallelSort()]()
+* [binarySearch()](src/main/java/com/trl/theoreticalKnowledge/arrays/binarySearch/a/a1/Example.java)
+
+
+
+
+
+
+
+
+
+## Stream API.
 
 
 
