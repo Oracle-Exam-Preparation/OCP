@@ -20,6 +20,8 @@
 * [Method Reference](#method-reference)
 * [Generics](#generics)
 * [Collections](#collections)
+* [Array](#array)
+* [Arrays](#arrays)
 * [Stream API](#stream-api)
 * [Help](#help)
 * [License](#license)
