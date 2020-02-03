@@ -7,7 +7,6 @@
 * [InstanceOf](#instanceof)
 * [Nested Class](#nested-class)
 * [Methods from Object Class](#methods-from-object-class)
-* [Virtual Methods](#virtual-methods)
 * [Imports](#imports)
 * [Casting Values](#casting-values)
 * [Java Inheritance](#java-inheritance)
@@ -131,26 +130,6 @@
 >>> #### Final
 >
 >> ### Note to self.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## InstanceOf.
-* [Example of "InstanceOf".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/a/a1/Example.java)
-* [Example of "null instanceOf someValue".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/_null/a/a1/Example.java)
 
 
 
@@ -374,19 +353,20 @@
 
 
 
-## Methods from Object class.
-
-
-
-
-
-
-
-
-
-
-## Virtual Methods.
-
+> ## Methods from Object class.
+>
+>> ### equals.
+>> * [Difference between "getClass()" and "instanceof"](src/main/java/com/trl/theoreticalKnowledge/objectMethods/equals/a/a2/Example.java)
+>> * [Difference between "getClass()" and "instanceof"](src/main/java/com/trl/theoreticalKnowledge/objectMethods/equals/a/a1/Example.java)
+>
+>> ### hashCode.
+>
+>> ### toString.
+>
+>> ### getClass.
+>> * [1.](src/main/java/com/trl/theoreticalKnowledge/objectMethods/getClass/a/a1/Example.java)
+>
+>> ### clone.
 
 
 
@@ -430,6 +410,9 @@
 
 
 > ## Java Inheritance.
+>  * Virtual Methods in object-oriented programming, a virtual function or virtual method is a function or method 
+>    whose behaviour can be overridden within an inheriting class by a function with the same signature to provide 
+>    the polymorphic behavior.
 >
 >> ### Class.
 >> * ["Class" can only be "extend" from one "class" or one "abstract class".]()
@@ -548,6 +531,19 @@
 * An object is an instance of a class created from it using the new keyword. <br/>
 * Classes, interfaces, arrays, enumerations and, annotations are the in Java are reference types in Java. Reference 
   variables hold the objects/values of reference types in Java. <br/>
+
+
+
+
+
+
+
+
+
+
+## InstanceOf.
+* [Example of "InstanceOf".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/a/a1/Example.java)
+* [Example of "null instanceOf someValue".](src/main/java/com/trl/theoreticalKnowledge/instanceOf/_null/a/a1/Example.java)
 
 
 
@@ -712,12 +708,12 @@
 >
 >> ### Generic Function Interface.
 >
->> ### Generic Type Parameters.
->
 >> ### Generic Constructor.
 >
 >> ### Generic Methods.
->
+>> * [1.](src/main/java/com/trl/theoreticalKnowledge/generics/method/a/a1/Example.java)
+>> * [Type of Parameters.](src/main/java/com/trl/theoreticalKnowledge/generics/method/typeParameter/a/a1/Example.java)
+>> * [Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/method/returnValue/a/a1/Example.java)
 >
 
 
@@ -730,6 +726,7 @@
 
 
 > ## Collections.
+> * For any type of collections, the methods is very important: equals, hashCode, compare, compareTo.
 >
 >> ### Big O, Big Theta, Big Omega.
 >>
@@ -776,11 +773,14 @@
 >> ### Stack.
 >
 >> ### Additional Information.
+>>
 >>> #### Method "equals()".
+>>> * []()
 >>
 >>> #### Method "hashCode().
 >>
->>> #### Interfaces "Comparable" and "Comparator".
+>>> #### Interfaces "Comparable" and "Comparator". Methods compareTo() and compare().
+>>> * []()
 >
 >> ### Concurrent Collections.
 >
