@@ -694,9 +694,35 @@
 > * [Oracle Java Documentation. The Java Generic Tutorials.](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
 > * [Covariant, Contravariance, Invariance.]()
 > * [Oracle Java Documentation. Lower Bounded Wildcards.](https://docs.oracle.com/javase/tutorial/java/generics/lowerBounded.html)
-> * [Lower Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/a/a1/Example.java)
 > * [Oracle Java Documentation. Upper Bounded Wildcards.](https://docs.oracle.com/javase/tutorial/java/generics/upperBounded.html)
-> * [Upper Bounded Wildcards. Example.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/a/a1/Example.java)
+> * [1.](src/main/java/com/trl/theoreticalKnowledge/generics/a/a1/Example.java)
+>
+>> ### Unbounded wildcard.
+>> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/initialization/a/a1/Example.java)
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methodParameter/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methodReturnValue/a/a1/Example.java)
+>> * [Definition Interface]()
+>> * [Definition Abstract Class]()
+>> * [Definition Class]()
+>> * [Definition Enum]()
+>
+>> ### Lower Bounded Wildcards.
+>> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/initialization/a/a1/Example.java)
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methodParameter/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methodReturnValue/a/a1/Example.java)
+>> * [Definition Interface]()
+>> * [Definition Abstract Class]()
+>> * [Definition Class]()
+>> * [Definition Enum]()
+>
+>> ### Upper Bounded Wildcards.
+>> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/initialization/a/a1/Example.java)
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methodParameter/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methodReturnValue/a/a1/Example.java)
+>> * [Definition Interface]()
+>> * [Definition Abstract Class]()
+>> * [Definition Class]()
+>> * [Definition Enum]()
 >
 >> ### Generic Classes.
 >
@@ -775,7 +801,7 @@
 >> ### Additional Information.
 >>
 >>> #### Method "equals()".
->>> * []()
+>>> * [1.]()
 >>
 >>> #### Method "hashCode().
 >>
@@ -795,6 +821,7 @@
 
 
 ## Array.
+* [1.](src/main/java/com/trl/theoreticalKnowledge/array/a/a1/Example.java)
 
 
 
@@ -820,6 +847,19 @@
 
 
 ## Stream API.
+
+
+
+
+
+
+
+
+
+
+## Compiler.
+* Compiler Warning is different from a compiler error in that all of the code still compiles with a compiler error. 
+  The compiler warning is Java informing you that you should take a closer look at something.
 
 
 

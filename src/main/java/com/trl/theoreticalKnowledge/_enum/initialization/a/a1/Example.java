@@ -5,6 +5,10 @@ public class Example {
 
           Color white = Color.WHITE;
 
+          Object object = Color.WHITE;
+
+          Class<? extends Color> white_2 = Color.WHITE.getClass();
+
 //          Color color = new Color();                                                          // Compilation ERROR !!!
      }
 }
