@@ -699,30 +699,35 @@
 >
 >> ### Unbounded wildcard.
 >> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/initialization/a/a1/Example.java)
->> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methodParameter/a/a1/Example.java)
->> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methodReturnValue/a/a1/Example.java)
->> * [Definition Interface]()
->> * [Definition Abstract Class]()
->> * [Definition Class]()
->> * [Definition Enum]()
+>> * [Constructor.]()
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methods/parameters/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/methods/returnValue/a/a1/Example.java)
+>> * [Definition Interface.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/_interface/a/a1/Example.java)
+>> * [Definition Abstract Class.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/abstractClass/a/a1/Example.java)
+>> * [Definition Class.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/_class/a/a1/Example.java)
+>> * [Definition Enum.](src/main/java/com/trl/theoreticalKnowledge/generics/unboundedWildcard/_enum/a/a1/Example.java)
 >
 >> ### Lower Bounded Wildcards.
 >> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/initialization/a/a1/Example.java)
->> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methodParameter/a/a1/Example.java)
->> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methodReturnValue/a/a1/Example.java)
->> * [Definition Interface]()
->> * [Definition Abstract Class]()
->> * [Definition Class]()
->> * [Definition Enum]()
+>> * [Constructor.]()
+>> * [? super OneType & OtherType.]()
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methods/parameters/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/methods/returnValue/a/a1/Example.java)
+>> * [Definition Interface.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/_interface/a/a1/Example.java)
+>> * [Definition Abstract Class.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/abstractClass/a/a1/Example.java)
+>> * [Definition Class.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/_class/a/a1/Example.java)
+>> * [Definition Enum.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardLowerBound/_enum/a/a1/Example.java)
 >
 >> ### Upper Bounded Wildcards.
 >> * [Initialization.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/initialization/a/a1/Example.java)
->> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methodParameter/a/a1/Example.java)
->> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methodReturnValue/a/a1/Example.java)
->> * [Definition Interface]()
->> * [Definition Abstract Class]()
->> * [Definition Class]()
->> * [Definition Enum]()
+>> * [Constructor.]()
+>> * [? extends OneType & OtherType.]()
+>> * [Method Parameter.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methods/parameters/a/a1/Example.java)
+>> * [Method Return Value.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/methods/returnValue/a/a1/Example.java)
+>> * [Definition Interface.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/_interface/a/a1/Example.java)
+>> * [Definition Abstract Class.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/abstractClass/a/a1/Example.java)
+>> * [Definition Class.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/_class/a/a1/Example.java)
+>> * [Definition Enum.](src/main/java/com/trl/theoreticalKnowledge/generics/wildcardUpperBound/_enum/a/a1/Example.java)
 >
 >> ### Generic Classes.
 >
