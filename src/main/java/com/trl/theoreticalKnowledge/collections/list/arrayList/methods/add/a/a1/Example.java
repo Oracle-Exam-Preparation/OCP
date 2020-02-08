@@ -12,10 +12,10 @@ public class Example {
         // Appends the specified element to the end of this list.
         List<String> list = new ArrayList<>();
 
-        out.println(list);                                                                                 // Output: []
-        out.println(list.add("A"));                                                                      // Output: true
-        out.println(list.add("B"));                                                                      // Output: true
-        out.println(list.add("C"));                                                                      // Output: true
-        out.println(list);                                                                          // Output: [A, B, C]
+        out.println(list);            // Output: []
+        out.println(list.add("A"));   // Output: true
+        out.println(list.add("B"));   // Output: true
+        out.println(list.add("C"));   // Output: true
+        out.println(list);            // Output: [A, B, C]
     }
 }

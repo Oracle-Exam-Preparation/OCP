@@ -12,8 +12,8 @@ public class Example {
         // Replaces the element at the specified position in this list with the specified element.
         List<String> list = new ArrayList<>(Arrays.asList("A", "B", "C"));
 
-        out.println(list);                                                                          // Output: [A, B, C]
-        out.println(list.set(1, "-"));                                                              // Output: B
-        out.println(list);                                                                          // Output: [A, -, C]
+        out.println(list);               // Output: [A, B, C]
+        out.println(list.set(1, "-"));   // Output: B
+        out.println(list);               // Output: [A, -, C]
     }
 }
