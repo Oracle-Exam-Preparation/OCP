@@ -1,7 +1,5 @@
 package com.trl.theoreticalKnowledge.generics.wildcardLowerBound.initialization.a.a1;
 
-import static java.lang.System.out;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +12,10 @@ public class Example {
         List<? super Father> list_3 = new ArrayList<Father>();
 //        List<? super Father> list_4 = new ArrayList<Son>();                                   // Compilation ERROR !!!
 //        List<? super Father> list_5 = new ArrayList<Grandson>();                              // Compilation ERROR !!!
+
+//        List<? super Father> list6 = new ArrayList<? extends Father>();                       // Compilation ERROR !!!
+//        List<? super Father> list7 = new ArrayList<? super Father>();                         // Compilation ERROR !!!
+//        List<? super Father> list8 = new ArrayList<?>();                                      // Compilation ERROR !!!
 
 //        list_1A.add(new Object());                                                            // Compilation ERROR !!!
 //        list_1A.add(new Grandfather());                                                       // Compilation ERROR !!!

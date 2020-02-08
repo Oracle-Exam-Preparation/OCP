@@ -28,6 +28,18 @@ public class Example {
     public static List<? extends Father>  someMethod_6() {
         return new ArrayList<Grandson>();
     }
+
+    public static <T> List<? extends T> someMethod_7() {
+        return new ArrayList<T>();
+    }
+
+//    public static <T> List<T extends Father> someMethod_8() {                                 // Compilation ERROR !!!
+//        return new ArrayList<T>();
+//    }
+
+    public static <T> List<? extends Father> someMethod_9() {
+        return new ArrayList<Father>();
+    }
 }
 
 class Grandfather {

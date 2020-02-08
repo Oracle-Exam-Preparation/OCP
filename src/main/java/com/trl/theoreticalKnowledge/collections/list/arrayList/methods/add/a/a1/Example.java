@@ -12,12 +12,9 @@ public class Example {
         List<String> list = new ArrayList<>();
 
         out.println(list);                                                                                 // Output: []
-        list.add("A");
-        list.add("B");
-        list.add("C");
+        out.println(list.add("A"));                                                                      // Output: true
+        out.println(list.add("B"));                                                                      // Output: true
+        out.println(list.add("C"));                                                                      // Output: true
         out.println(list);                                                                          // Output: [A, B, C]
-
-        list.add(1, "-");
-        out.println(list);                                                                       // Output: [A, -, B, C]
     }
 }

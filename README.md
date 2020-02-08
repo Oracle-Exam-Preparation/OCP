@@ -29,6 +29,7 @@
 * [Exam Java SE 8 Programmer II](https://education.oracle.com/java-se-8-programmer-ii/pexam_1Z0-809)
 * [Java® Language Specification. Java SE 8 Edition](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
 * [Java Platform, Standard Edition (Java SE) 8](https://docs.oracle.com/javase/8/)
+* [Java™ Platform, Standard Edition 8 API Specification](https://docs.oracle.com/javase/8/docs/api/)
 
 
 
@@ -777,27 +778,71 @@
 >> ### Iterable.
 >
 >> ### List.
+>> * [A list is an ordered collection of elements that allows duplicate entries. Elements in a list can be accessed by an int index.]()
 >>
 >>> #### ArrayList.
 >>>
 >>>> ##### Constructor. 
->>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>> * [ArrayList<>() - Constructs an empty list with an initial capacity of ten.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>> * [ArrayList<>(int initialCapacity) - Constructs an empty list with the specified initial capacity.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/b/b1/Example.java) 
+>>>> * [ArrayList<>(java.util.Collection<? extends E> c) - Constructs a list containing the elements of the specified 
+>>>>    collection, in the order they are returned by the collection's iterator.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/c/c1/Example.java) 
 >>>
 >>>> ##### Methods. 
->>>> * [add()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
->>>> * [set()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java) 
->>>> * [get()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java) 
->>>> * [remove()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
+>>>>> ###### add
+>>>>> * [boolean add (E element) - Appends the specified element to the end of this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
+>>>>> * [void add (int index, E element) - Inserts the specified element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/b/b1/Example.java) 
+>>>>
+>>>>> ###### set
+>>>>> * [E set (int index, E element) - Replaces the element at the specified position in this list with the specified element.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java)
+>>>>
+>>>>> ###### get
+>>>>> * [E get (int index) - Returns the element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java)
+>>>>
+>>>>> ###### remove
+>>>>> * [E remove (int index) - Removes the element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
+>>>>> * [boolean remove(Object o) - Removes the first occurrence of the specified element from this list, if it is present.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
 >>>
 >>>> ##### Initialization. 
 >>
 >>> #### LinkedList.
 >
 >> ### Set.
+>> * [A set is a collection that does not allow duplicate entries.]()
+>>
+>>> #### HashSet
+>>>
+>>>> ##### Constructor. 
+>>>> * [HashSet<>()]() 
+>>>> * [ArrayList<>(int initialCapacity)]() 
+>>>> * [new ArrayList<>(java.util.Collection<? extends E> c)]() 
+>>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>
+>>>> ##### Methods. 
+>>>>> ###### add
+>>>>> * [boolean add (E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
+>>>>> * [void add (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/b/b1/Example.java) 
+>>>>
+>>>>> ###### set
+>>>>> * [E set (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java)
+>>>>
+>>>>> ###### get
+>>>>> * [E get (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java)
+>>>>
+>>>>> ###### remove
+>>>>> * [E remove (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
+>>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
+>>>
+>>>> ##### Initialization. 
+>>
+>>> #### LinkedHashSet.
 >
 >> ### Map.
+>> * [ A map is a collection that maps keys to values, with no duplicate keys allowed. The elements in a map are key/value pairs.]()
 >
 >> ### Queue.
+>> * [A queue is a collection that orders its elements in a specific order for processing. A typical queue processes its 
+>>   elements in a first-in, first-out order, but other orderings are possible.]()
 >>
 >> ### Heap.
 >>

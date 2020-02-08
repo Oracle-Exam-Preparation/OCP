@@ -13,6 +13,10 @@ public class Example {
         List<?> list_4 = new ArrayList<Son>();
         List<?> list_5 = new ArrayList<Grandson>();
 
+//        List<?> list6 = new ArrayList<? extends Father>();                                    // Compilation ERROR !!!
+//        List<?> list7 = new ArrayList<? super Father>();                                      // Compilation ERROR !!!
+//        List<?> list8 = new ArrayList<?>();                                                   // Compilation ERROR !!!
+
 //        list_1A.add(new Object());                                                            // Compilation ERROR !!!
 //        list_1A.add(new Grandfather());                                                       // Compilation ERROR !!!
 //        list_1A.add(new Father());                                                            // Compilation ERROR !!!

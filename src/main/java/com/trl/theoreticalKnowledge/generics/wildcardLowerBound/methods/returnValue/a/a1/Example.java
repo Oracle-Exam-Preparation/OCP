@@ -28,6 +28,14 @@ public class Example {
 //    public static List<? super Father>  someMethod_6() {
 //        return new ArrayList<Grandson>();                                                     // Compilation ERROR !!!
 //    }
+
+//    public static List<? super T> someMethod_7() {                                            // Compilation ERROR !!!
+//        return new ArrayList<T>();
+//    }
+
+//    public static List<T super Father> someMethod_8() {                                       // Compilation ERROR !!!
+//        return new ArrayList<T>();
+//    }
 }
 
 class Grandfather {

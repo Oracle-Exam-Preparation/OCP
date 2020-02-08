@@ -21,11 +21,26 @@ public class Example {
         someMethod(fathers);
         someMethod(sons);
         someMethod(grandsons);
+
+        someMethod_2(rowList);
+        someMethod_2(objects);
+        someMethod_2(grandfathers);
+        someMethod_2(fathers);
+        someMethod_2(sons);
+        someMethod_2(grandsons);
     }
 
     public static void someMethod(List<?> list) {
         list.forEach(out::println);
     }
+
+    public static <T> void someMethod_2(List<?> list) {
+        list.forEach(out::println);
+    }
+
+//    public static <?> void someMethod_3(List<?> list) {                                       // Compilation ERROR !!!
+//        list.forEach(out::println);
+//    }
 }
 
 class Grandfather {
