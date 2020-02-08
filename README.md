@@ -801,15 +801,46 @@
 >>>>> ###### remove
 >>>>> * [E remove (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
 >>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
+>>>>
+>>>>> ###### isEmpty
+>>>>> * []()
+>>>> 
+>>>>> ###### size
+>>>>> * []()
+>>>>
+>>>>> ###### clear
+>>>>> * []()
+>>>>
+>>>>> ###### contains
+>>>>> * [This method calls equals() on each element of the ArrayList to see if there are any matches.]()
+>>>>> * []()
+>>>>
+>>>>> ###### indexOf
+>>>>> * []()
+>>>>
+>>>>> ###### lastIndexOf
+>>>>> * []()
+>>>>
+>>>>> ###### iterator
+>>>>> * []()
 >>>
 >>>> ##### Initialization. 
 >>
 >>> #### LinkedList.
+>>> * A LinkedList implements List and Queue. <br/>
+>>
+>>> #### Old Collections.
+>>>> ##### Vector.
+>>>
+>>>> ##### Stack.
+>>>>  * If you need a stack, use an ArrayDeque instead <br/>
 >
 >> ### Set.
 >> * [A set is a collection that does not allow duplicate entries.]()
 >>
 >>> #### HashSet
+>>> * A HashSet stores its elements in a hash table. This means that it uses the hashCode() method of the objects to retrieve them more efficiently. <br/>
+>>> * The equals() method is used to determine equality. <br/> 
 >>>
 >>>> ##### Constructor. 
 >>>> * [HashSet<>()]() 
@@ -823,10 +854,64 @@
 >>>>
 >>>>> ###### remove
 >>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/set/hashSet/remove/a/a1/Example.java) 
+>>>>
+>>>>> ###### isEmpty
+>>>>> * []()
+>>>> 
+>>>>> ###### size
+>>>>> * []()
+>>>>
+>>>>> ###### clear
+>>>>> * []()
+>>>>
+>>>>> ###### contains
+>>>>> * [This method calls equals() on each element of the HashSet to see if there are any matches.]()
+>>>>> * []()
 >>>
 >>>> ##### Initialization. 
 >>
 >>> #### LinkedHashSet.
+>>
+>>> #### TreeSet.
+>>> * A TreeSet stores its elements in a sorted tree structure. The main benefit is that the set is always in sorted order.
+>>>
+>>>> ##### Constructor. 
+>>>> * [TreeSet<>()]() 
+>>>> * [TreeSet(Collection<? extends E> c)]() 
+>>>> * [TreeSet(Comparator<? super E> comparator)]() 
+>>>> * [TreeSet(SortedSet<E> s)]() 
+>>>
+>>>> ##### Methods. 
+>>>>> ###### add
+>>>>> * [boolean add (E e)]() 
+>>>>
+>>>>> ###### remove
+>>>>> * [boolean remove (Object o)]() 
+>>>>
+>>>>> ###### isEmpty
+>>>>> * [boolean isEmpty ()]()
+>>>> 
+>>>>> ###### size
+>>>>> * [int size ()]()
+>>>>
+>>>>> ###### clear
+>>>>> * [void clear ()]()
+>>>>
+>>>>> ###### contains
+>>>>> * [boolean contains(Object o)]()
+>>>>> * [This method calls equals() on each element of the TreeSet to see if there are any matches.]()
+>>>>
+>>>>> ###### lower
+>>>>> * [E lower (E e)](src/main/java/com/trl/theoreticalKnowledge/collections/set/sortedSet/navigableSet/treeSet/methods/lower/a/a1/Example.java)
+>>>>
+>>>>> ###### floor
+>>>>> * [E floor (E e)](src/main/java/com/trl/theoreticalKnowledge/collections/set/sortedSet/navigableSet/treeSet/methods/floor/a/a1/Example.java)
+>>>>
+>>>>> ###### ceiling
+>>>>> * [E ceiling (E e)](src/main/java/com/trl/theoreticalKnowledge/collections/set/sortedSet/navigableSet/treeSet/methods/ceiling/a/a1/Example.java)
+>>>>
+>>>>> ###### higher
+>>>>> * [E higher (E e)](src/main/java/com/trl/theoreticalKnowledge/collections/set/sortedSet/navigableSet/treeSet/methods/higher/a/a1/Example.java)
 >
 >> ### Map.
 >> * [ A map is a collection that maps keys to values, with no duplicate keys allowed. The elements in a map are key/value pairs.]()
@@ -837,8 +922,6 @@
 >>
 >> ### Heap.
 >>
->> ### Stack.
->
 >> ### Additional Information.
 >>
 >>> #### Method "equals()".
