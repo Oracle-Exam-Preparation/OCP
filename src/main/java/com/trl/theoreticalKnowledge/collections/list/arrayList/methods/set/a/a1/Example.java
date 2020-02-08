@@ -13,7 +13,7 @@ public class Example {
         List<String> list = new ArrayList<>(Arrays.asList("A", "B", "C"));
 
         out.println(list);                                                                          // Output: [A, B, C]
-        out.println(list.set(1, "-"));
+        out.println(list.set(1, "-"));                                                              // Output: B
         out.println(list);                                                                          // Output: [A, -, C]
     }
 }
