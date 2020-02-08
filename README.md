@@ -874,6 +874,7 @@
 >>
 >>> #### TreeSet.
 >>> * A TreeSet stores its elements in a sorted tree structure. The main benefit is that the set is always in sorted order.
+>>> * TreeSet implements the NavigableSet interface. And the interface NavigableSet implemented SortedSet. And the interface SortedSet implemented Set.
 >>>
 >>>> ##### Constructor. 
 >>>> * [TreeSet<>()]() 
@@ -917,9 +918,70 @@
 >> * [ A map is a collection that maps keys to values, with no duplicate keys allowed. The elements in a map are key/value pairs.]()
 >
 >> ### Queue.
+>> * You use a queue when elements are added and removed in a specific order. Queues are typically used for sorting 
+>>   elements prior to processing them. <br/>
 >> * [A queue is a collection that orders its elements in a specific order for processing. A typical queue processes its 
->>   elements in a first-in, first-out order, but other orderings are possible.]()
+>>   elements in a FIFO (first-in, first-out) order, but other orderings are possible.]()
 >>
+>>> #### PriorityQueue.
+>>>
+>>>> ##### Constructor. 
+>>>> * [PriorityQueue()]() 
+>>>> * [PriorityQueue(Collection<? extends E> c)]() 
+>>>> * [PriorityQueue(Comparator<? super E> comparator)]() 
+>>>> * [PriorityQueue(int initialCapacity)]() 
+>>>> * [PriorityQueue(int initialCapacity, Comparator<? super E> comparator)]() 
+>>>> * [PriorityQueue(PriorityQueue<? extends E> c)]() 
+>>>> * [PriorityQueue(SortedSet<? extends E> c)]() 
+>>>
+>>>> ##### Methods. 
+>>>>> ###### add
+>>>>> * [boolean add (E e)]() 
+>>>>
+>>>>> ###### remove
+>>>>> * [boolean remove (Object o)]() 
+>>>>
+>>>>> ###### isEmpty
+>>>>> * [boolean isEmpty ()]()
+>>>> 
+>>>>> ###### size
+>>>>> * [int size ()]()
+>>>>
+>>>>> ###### clear
+>>>>> * [void clear ()]()
+>>>>
+>>>>> ###### contains
+>>>>> * [boolean contains(Object o)]()
+>>>>> * [This method calls equals() on each element of the TreeSet to see if there are any matches.]()
+>>
+>>> #### ArrayDeque.
+>>>
+>>>> ##### Constructor. 
+>>>> * [ArrayDeque<>()]() 
+>>>> * [ArrayDeque(Collection<? extends E> c)]() 
+>>>> * [ArrayDeque(int numElements)]() 
+>>>
+>>>> ##### Methods. 
+>>>>> ###### add
+>>>>> * [boolean add (E e)]() 
+>>>>
+>>>>> ###### remove
+>>>>> * [E remove ()]() 
+>>>>> * [boolean remove (Object o)]() 
+>>>>
+>>>>> ###### isEmpty
+>>>>> * [boolean isEmpty ()]()
+>>>> 
+>>>>> ###### size
+>>>>> * [int size ()]()
+>>>>
+>>>>> ###### clear
+>>>>> * [void clear ()]()
+>>>>
+>>>>> ###### contains
+>>>>> * [boolean contains(Object o)]()
+>>>>> * [This method calls equals() on each element of the TreeSet to see if there are any matches.]()
+>
 >> ### Heap.
 >>
 >> ### Additional Information.
