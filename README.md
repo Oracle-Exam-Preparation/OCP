@@ -783,25 +783,24 @@
 >>> #### ArrayList.
 >>>
 >>>> ##### Constructor. 
->>>> * [ArrayList<>() - Constructs an empty list with an initial capacity of ten.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
->>>> * [ArrayList<>(int initialCapacity) - Constructs an empty list with the specified initial capacity.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/b/b1/Example.java) 
->>>> * [ArrayList<>(java.util.Collection<? extends E> c) - Constructs a list containing the elements of the specified 
->>>>    collection, in the order they are returned by the collection's iterator.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/c/c1/Example.java) 
+>>>> * [ArrayList<>()](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>> * [ArrayList<>(int initialCapacity)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/b/b1/Example.java) 
+>>>> * [ArrayList<>(java.util.Collection<? extends E> c)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/c/c1/Example.java) 
 >>>
 >>>> ##### Methods. 
 >>>>> ###### add
->>>>> * [boolean add (E element) - Appends the specified element to the end of this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
->>>>> * [void add (int index, E element) - Inserts the specified element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/b/b1/Example.java) 
+>>>>> * [boolean add (E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
+>>>>> * [void add (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/b/b1/Example.java) 
 >>>>
 >>>>> ###### set
->>>>> * [E set (int index, E element) - Replaces the element at the specified position in this list with the specified element.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java)
+>>>>> * [E set (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java)
 >>>>
 >>>>> ###### get
->>>>> * [E get (int index) - Returns the element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java)
+>>>>> * [E get (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java)
 >>>>
 >>>>> ###### remove
->>>>> * [E remove (int index) - Removes the element at the specified position in this list.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
->>>>> * [boolean remove(Object o) - Removes the first occurrence of the specified element from this list, if it is present.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
+>>>>> * [E remove (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
+>>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
 >>>
 >>>> ##### Initialization. 
 >>

@@ -9,6 +9,7 @@ import java.util.List;
 public class Example {
     public static void main(String[] args) {
 
+        // Appends the specified element to the end of this list.
         List<String> list = new ArrayList<>();
 
         out.println(list);                                                                                 // Output: []

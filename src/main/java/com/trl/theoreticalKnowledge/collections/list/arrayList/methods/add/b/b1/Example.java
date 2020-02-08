@@ -9,6 +9,7 @@ import java.util.List;
 public class Example {
     public static void main(String[] args) {
 
+        // Inserts the specified element at the specified position in this list.
         List<String> list = new ArrayList<>(Arrays.asList("A", "B", "C"));
 
         out.println(list);                                                                        // Output: [A, B, C]

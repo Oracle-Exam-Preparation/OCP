@@ -9,7 +9,9 @@ import java.util.List;
 public class Example {
     public static void main(String[] args) {
 
+        // Returns the element at the specified position in this list.
         List<Integer> list = new ArrayList<>(Arrays.asList(10, 9, 8, 7, 6, 5, 4, 3, 2, 1));
+
         out.println(list);                                                    // Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
         out.println(list.get(1));                                                                           // Output: 9
         out.println(list.get(new Integer(1)));                                                      // Output: 9

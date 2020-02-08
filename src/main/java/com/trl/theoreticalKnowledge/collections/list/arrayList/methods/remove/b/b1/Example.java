@@ -9,6 +9,7 @@ import java.util.List;
 public class Example {
     public static void main(String[] args) {
 
+        // Removes the first occurrence of the specified element from this list, if it is present.
         List<Integer> list = new ArrayList<>(Arrays.asList(10, 9, 8, 7, 6, 5, 4, 3, 2, 1));
 
         out.println(list);                                                  // Output: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]

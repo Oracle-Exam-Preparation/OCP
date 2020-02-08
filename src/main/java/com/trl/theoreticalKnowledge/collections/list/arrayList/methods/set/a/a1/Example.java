@@ -9,6 +9,7 @@ import java.util.List;
 public class Example {
     public static void main(String[] args) {
 
+        // Replaces the element at the specified position in this list with the specified element.
         List<String> list = new ArrayList<>(Arrays.asList("A", "B", "C"));
 
         out.println(list);                                                                          // Output: [A, B, C]
