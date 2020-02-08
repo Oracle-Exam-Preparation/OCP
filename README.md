@@ -813,24 +813,16 @@
 >>>
 >>>> ##### Constructor. 
 >>>> * [HashSet<>()]() 
->>>> * [ArrayList<>(int initialCapacity)]() 
->>>> * [new ArrayList<>(java.util.Collection<? extends E> c)]() 
->>>> * [1.](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/constructors/a/a1/Example.java) 
+>>>> * [HashSet<>(int initialCapacity)]() 
+>>>> * [HashSet<>(java.util.Collection<? extends E> c)]() 
+>>>> * [HashSet<>(int initialCapacity, float loadFactor)]() 
 >>>
 >>>> ##### Methods. 
 >>>>> ###### add
->>>>> * [boolean add (E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/a/a1/Example.java) 
->>>>> * [void add (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/add/b/b1/Example.java) 
->>>>
->>>>> ###### set
->>>>> * [E set (int index, E element)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/set/a/a1/Example.java)
->>>>
->>>>> ###### get
->>>>> * [E get (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/get/a/a1/Example.java)
+>>>>> * [boolean add(E e)](src/main/java/com/trl/theoreticalKnowledge/collections/set/hashSet/add/a/a1/Example.java) 
 >>>>
 >>>>> ###### remove
->>>>> * [E remove (int index)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/a/a1/Example.java) 
->>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/list/arrayList/methods/remove/b/b1/Example.java) 
+>>>>> * [boolean remove(Object o)](src/main/java/com/trl/theoreticalKnowledge/collections/set/hashSet/remove/a/a1/Example.java) 
 >>>
 >>>> ##### Initialization. 
 >>
