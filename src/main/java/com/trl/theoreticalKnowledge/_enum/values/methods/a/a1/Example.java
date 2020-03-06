@@ -1,4 +1,4 @@
-package com.trl.theoreticalKnowledge._enum.methods.a.a1;
+package com.trl.theoreticalKnowledge._enum.values.methods.a.a1;
 
 public class Example {
     public static void main(String[] args) {
